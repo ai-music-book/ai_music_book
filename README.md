@@ -1,1 +1,2 @@
-# ai_music_book
+# AI作曲本（仮）
+
