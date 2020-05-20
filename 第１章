@@ -1,1 +1,53 @@
+# awesome
+# The largest heading (最大のヘッディング)
+## The second largest heading (2番目に大きなヘッディング)
+###### The smallest heading (最も小さいヘッディング)
+
+**これは太字のテキストです**
+
+*このテキストは斜体です*
+
+~~これは間違ったテキストでした~~
+
+**このテキストは_きわめて_ 重要です**
+
+***すべてのテキストがきわめて重要です***
+
+
+```
+git status
+git add
+git commit
+```
+
+https://help.github.com/ja/github/writing-on-github/basic-writing-and-formatting-syntax
+
+
+- [レポじとりリンク](https://github.com/ys23/awesome/blob/master/hello.html)
+
+
+
+- George Washington
+- John Adams
+- Thomas Jefferson
+
+#
+
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+
+1. 最初のリストアイテム
+   - 最初の入れ子になったリストアイテム
+     - 2 番目の入れ子になったリストアイテム
+
+<br>
+<br>
+
+
+100. 最初のリストアイテム
+     - 最初の入れ子になったリストアイテム
+
+![画像名](ariactrl.jpg)
 
