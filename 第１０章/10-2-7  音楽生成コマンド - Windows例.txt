@@ -1,0 +1,8 @@
+melody_rnn_generate ^
+--config=attention_rnn ^
+--run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
+--output_dir=¥Users¥User-name¥Documents¥magenta-music ^
+--num_outputs=10 ^
+--num_steps=128 ^
+--hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" ^
+--primer_melody="[60]"

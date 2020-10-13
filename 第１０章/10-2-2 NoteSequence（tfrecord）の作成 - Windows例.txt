@@ -1,0 +1,4 @@
+convert_dir_to_note_sequences ^
+--input_dir=¥Users¥User-name¥Documents¥midi500 ^
+--output_file=¥Users¥User-name¥Documents¥noteseq¥notesequences.tfrecord ^
+--recursive

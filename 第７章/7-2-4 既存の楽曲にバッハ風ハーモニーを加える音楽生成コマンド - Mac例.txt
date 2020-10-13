@@ -1,0 +1,8 @@
+polyphony_rnn_generate \
+--bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/polyphony_rnn.mag \
+--output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
+--num_outputs=1 \
+--num_steps=385 \
+-primer_midi=/Users/User-name/Downloads/twinkle_full.mid \
+--condition_on_primer=False \
+--inject_primer_during_generation=True

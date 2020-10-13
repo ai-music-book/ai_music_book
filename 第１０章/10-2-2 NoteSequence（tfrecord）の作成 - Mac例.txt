@@ -1,0 +1,4 @@
+convert_dir_to_note_sequences \
+--input_dir= /Users/KazuyukiIida/Dropbox/aimusic/midi500 \
+--output_file= /Users/KazuyukiIida/Dropbox/aimusic/noteseq/notesequences.tfrecord \
+--recursive

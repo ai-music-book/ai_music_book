@@ -1,0 +1,6 @@
+melody_rnn_train ^
+--config=attention_rnn ^
+--run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
+--sequence_example_file=¥Users¥User-name¥Documents¥sequence_examples¥training_melodies.tfrecord ^
+--hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" ^
+--num_training_steps=10000
