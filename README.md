@@ -11,7 +11,7 @@
 コマンドはコピペの際にスペース一つ、全角文字が一つ含まれる、だけでもエラーが出ますので、ご自身で確認もお願いします。
 特に改行文字`^` （キャレット）や `\` （バックスラッシュ）の後にスペースが含まれてしまう場合がありますのでご注意を。
 Windowsの改行文字 `^` （キャレット）はコマンドプロンプトの場合です。
-PowerShellの場合は ``` （バッククオート）となります。
+PowerShellの場合は ` ` ` （バッククオート）となります。
 
 Windowsでコピペがうまくいかない場合
 Windows TerminalでコマンドプロンプトやPowerShellを使用してコピペがうまくいかない場合は
@@ -69,6 +69,7 @@ https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn
 Melody RNN 生成コマンド実行例
 
 Windows例
+```
 melody_rnn_generate ^
 --config=basic_rnn ^
 --bundle_file=¥Users¥User-name¥Documents¥basic_rnn.mag ^
@@ -77,8 +78,9 @@ melody_rnn_generate ^
 --num_steps=64 ^
 --qpm=120.0 ^
 --primer_melody="[60]"
-
-Mac例★
+```
+Mac例
+```
 melody_rnn_generate \
 --config=basic_rnn \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/basic_rnn.mag \
@@ -87,7 +89,7 @@ melody_rnn_generate \
 --num_steps=64 \
 --qpm=120.0 \
 --primer_melody="[60]"
-
+```
 
 3-2-3
 Melody RNN 生成曲のYouTube動画URL
@@ -101,6 +103,7 @@ https://musescore.org/ja/download
 Melody RNN primer_midi 生成コマンド実行例
 
 Windows例
+```
 melody_rnn_generate ^
 --config=basic_rnn ^
 --bundle_file=¥Users¥User-name¥Documents¥basic_rnn.mag ^
@@ -109,8 +112,9 @@ melody_rnn_generate ^
 --num_steps=64 ^
 --qpm=120.0 ^
 --primer_midi=¥Users¥User-name¥Documents¥song001.mid
-
+```
 Mac例
+```
 melody_rnn_generate \
 --config=basic_rnn \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/basic_rnn.mag \
@@ -119,7 +123,7 @@ melody_rnn_generate \
 --num_steps=64 \
 --qpm=120.0 \
 --primer_midi=/Users/KazuyukiIida/Dropbox/aimusic/song001.mid
-
+```
 
 第４章
 4-2-1
@@ -129,6 +133,7 @@ https://GitHub.com/tensorflow/magenta/tree/master/magenta/models/drums_rnn
 4-2-2
 Drums RNN 生成コマンド実行例
 Windows例
+```
 drums_rnn_generate ^
 --config=one_drum ^
 --bundle_file=¥Users¥User-name¥Documents¥drum_kit_rnn.mag ^
@@ -137,8 +142,10 @@ drums_rnn_generate ^
 --num_steps=256 ^
 --qpm=120.0 ^
 --primer_drums="[(36,)]"
+```
 
 Mac例
+```
 melody_rnn_generate \
 --config=one_drum \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/drum_kit_rnn.mag \
@@ -147,6 +154,7 @@ melody_rnn_generate \
 --num_steps=256 \
 --qpm=120.0 \
 --primer_drums="[(36,)]"
+```
 
 4-2-2
 Drums RNN 生成曲視聴YouTube
@@ -156,6 +164,7 @@ https://youtu.be/pBuPmrNURxY
 Drums RNN primer_midi 生成コマンド実行例
 
 Windows例
+```
 drums_rnn_generate ^
 --config=one_drum ^
 --bundle_file=¥Users¥User-name¥Documents¥ drum_kit_rnn.mag ^
@@ -164,8 +173,10 @@ drums_rnn_generate ^
 --num_steps=256 ^
 --qpm=120.0 ^
 --primer_midi=¥Users¥User-name¥Documents¥song001.mid
+```
 
 Mac例
+```
 drums_rnn_generate \
 --config=one_drum \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/drum_kit_rnn.mag \
@@ -174,7 +185,7 @@ drums_rnn_generate \
 --num_steps=256 \
 --qpm=120.0 \
 --primer_midi=/Users/KazuyukiIida/Dropbox/aimusic/drums001.mid
-
+```
 
 Drums RNN primer_midi 生成曲のYouTube動画URL
 https://youtu.be/HWkqKxB_rNs
@@ -199,21 +210,23 @@ https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae
  MusicVAE Sampleモード生成コマンド例 
 
 Windows例
+```
 music_vae_generate ^ 
 --config=hierdec-trio_16bar ^ 
 --checkpoint_file=¥Users¥User-name¥Documents¥hierdec-trio_16bar.tar ^ 
 --mode=sample ^ 
 --num_outputs=10 ^ 
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
-
+```
 Mac例
+```
 music_vae_generate \ 
 --config=hierdec-trio_16bar \ 
 --checkpoint_file=/Users/KazuyukiIida/Dropbox/aimusic/hierdec-trio_16bar.tar \ 
 --mode=sample \ 
 --num_outputs=10 \ 
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music/
-
+```
 5-2-2
 MusicVae sampleモード生成曲のYouTube動画URL
 https://youtu.be/oa5T1mp1zdk
@@ -221,7 +234,8 @@ https://youtu.be/oa5T1mp1zdk
 5-2-3
 MusicVAE Interplateモード生成コマンド例 
 
-Windows例 
+Windows例
+```
 music_vae_generate ^ 
 --config=hierdec-trio_16bar ^ 
 --checkpoint_file=¥Users¥User-name¥Documents¥hierdec-trio_16bar.tar ^ 
@@ -230,8 +244,10 @@ music_vae_generate ^
 --input_midi_1=¥Users¥User-name¥Documents¥interpolate01.mid ^ 
 --input_midi_2=¥Users¥User-name¥Documents¥interpolate02.mid ^ 
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
+```
 
 Mac例
+```
 music_vae_generate \
 --config=hierdec-trio_16bar \
 --checkpoint_file=/Users/KazuyukiIida/Dropbox/aimusic/hierdec-trio_16bar.tar \
@@ -240,14 +256,7 @@ music_vae_generate \
 --input_midi_1=/Users/KazuyukiIida/Dropbox/aimusic/interpolate01.mid \
 --input_midi_2=/Users/KazuyukiIida/Dropbox/aimusic/interpolate02.mid \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music
-
-→ImportError: cannot import name 'naming' from 'tensorflow.python.autograph.core' (/Users/KazuyukiIida/opt/anaconda3/envs/py37/lib/python3.7/site-packages/tensorflow/python/autograph/core/__init__.py)
-
-のエラーが出た
-各行に半角スペースが入っている
-
-
-
+```
 5-2-3
 MusicVAE Interplateモード生成曲のYouTube動画URL
 https://youtu.be/Kqe0TAisazg 
@@ -256,6 +265,7 @@ https://youtu.be/Kqe0TAisazg
 MusicVAE nade-drums_2bar_full 生成コマンド例 
 
 Windows例 
+```
 music_vae_generate ^ 
 --config=nade-drums_2bar_full ^ 
 --checkpoint_file=¥Users¥User-name¥Documents¥nade-drums_2bar_full.tar ^ 
@@ -263,8 +273,9 @@ music_vae_generate ^
 --num_outputs=10 ^ 
 --temperature=1.0 ^ 
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
-
+```
 Mac例 
+```
 music_vae_generate \
 --config=nade-drums_2bar_full \
 --checkpoint_file=/Users/KazuyukiIida/Dropbox/aimusic/nade-drums_2bar_full.tar \
@@ -272,13 +283,7 @@ music_vae_generate \
 --num_outputs=10 \
 --temperature=1.0 \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music
-
-→ImportError: cannot import name 'naming' from 'tensorflow.python.autograph.core' (/Users/KazuyukiIida/opt/anaconda3/envs/py37/lib/python3.7/site-packages/tensorflow/python/autograph/core/__init__.py)
-
-のエラーがでた
-各行に半角スペースが入っている
-
-
+```
 
 MusicVAE nade-drums_2bar_full生成曲のYouTube動画URL
 https://youtu.be/sQEsK1VNEyw 
@@ -287,6 +292,7 @@ https://youtu.be/sQEsK1VNEyw
 MusicVAE groovae_4barの生成コマンド例 
 
 Windows例 
+```
 music_vae_generate ^
 --config=groovae_4bar ^
 --checkpoint_file=¥Users¥User-name¥Documents¥groovae_4bar.tar ^
@@ -294,8 +300,9 @@ music_vae_generate ^
 --num_outputs=10 ^
 --temperature=1.0 ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
-
+```
 Mac例 
+```
 music_vae_generate \
 --config=groovae_4bar \
 --checkpoint_file=/Users/KazuyukiIida/Dropbox/aimusic/groovae_4bar.tar \
@@ -303,18 +310,15 @@ music_vae_generate \
 --num_outputs=10 \
 --temperature=1.0 \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music
-
-→ImportError: cannot import name 'naming' from 'tensorflow.python.autograph.core' (/Users/KazuyukiIida/opt/anaconda3/envs/py37/lib/python3.7/site-packages/tensorflow/python/autograph/core/__init__.py)
-
-
+```
 MusicVAE groovae_4bar生成曲のYouTube動画URL
 https://youtu.be/tjB6HyDvPHE 
-
 
 5-3-3
 MusicVAE groovae_2bar_add_closed_hhの生成コマンド例 
 
 Windows例 
+```
 music_vae_generate ^ 
 --config=groovae_2bar_add_closed_hh ^ 
 --checkpoint_file= ¥Users¥User-name¥groovae_2bar_add_closed_hh.tar ^ 
@@ -324,8 +328,9 @@ music_vae_generate ^
 --input_midi_1=¥Users¥User-name¥Documents¥no-hh-8beat.mid ^ 
 --input_midi_2=¥Users¥User-name¥Documents¥no-hh-16beat.mid ^ 
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
-
+```
 Mac例 
+```
 music_vae_generate \
 --config=groovae_2bar_add_closed_hh \
 --checkpoint_file= /Users/User-name/groovae_2bar_add_closed_hh.tar \
@@ -335,10 +340,7 @@ music_vae_generate \
 --input_midi_1=/Users/KazuyukiIida/Dropbox/aimusic/no-hh-8beat.mid \
 --input_midi_2=/Users/KazuyukiIida/Dropbox/aimusic/no-hh-16beat.mid \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music
-
-→ImportError: cannot import name 'naming' from 'tensorflow.python.autograph.core' (/Users/KazuyukiIida/opt/anaconda3/envs/py37/lib/python3.7/site-packages/tensorflow/python/autograph/core/__init__.py)
-
-半角スペース入ってる
+```
 
 MusicVAE groovae_2bar_add_closed_hh生成曲視聴YouTube
 https://youtu.be/4q7zMi0jiuo 
@@ -355,6 +357,7 @@ https://github.com/tensorflow/magenta/tree/master/magenta/models/improv_rnn
 Improv RNNの生成コマンド例 
 
 Windows 
+```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
 --bundle_file=¥Users¥User-name¥Documents¥chord_pitches_improv.mag ^
@@ -366,8 +369,9 @@ improv_rnn_generate ^
 --backing_chords="C G Am Em F C F G" ^
 --steps_per_chord=16 ^
 --render_chords=True 
-
+```
 Mac 
+```
 improv_rnn_generate \
 --config=chord_pitches_improv \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/chord_pitches_improv.mag \
@@ -379,7 +383,7 @@ improv_rnn_generate \
 --backing_chords="C G Am Em F C F G" \
 --steps_per_chord=16 \
 --render_chords=True
-
+```
 
 Improv RNN生成曲のYouTube動画URL
 https://youtu.be/43iCXzK9iYg 
@@ -389,6 +393,7 @@ https://youtu.be/43iCXzK9iYg
 Improv RNN primer_melodyを駆使したカノン進行生成曲のYouTube動画URL
 
 Windows 
+```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
 --bundle_file=¥Users¥User-name¥Documents¥chord_pitches_improv.mag ^
@@ -400,8 +405,9 @@ improv_rnn_generate ^
 --backing_chords="C G Am Em F C F G" ^
 --steps_per_chord=16 ^
 --render_chords=True 
-
+```
 Mac 
+```
 improv_rnn_generate \
 --config=chord_pitches_improv \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/chord_pitches_improv.mag \
@@ -413,7 +419,7 @@ improv_rnn_generate \
 --backing_chords="C G Am Em F C F G" \
 --steps_per_chord=16 \
 --render_chords=True
-
+```
 Improv RNN primer_melodyを駆使した カノン進行生成曲YouTube視聴動画URL
 https://youtu.be/gZBf7cgqyMI 
 
@@ -421,6 +427,7 @@ https://youtu.be/gZBf7cgqyMI
 primer_midiを使用してきらきら星の続き生成コマンド
 
 Windows 
+```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
 --bundle_file=¥Users¥User-name¥Documents¥chord_pitches_improv.mag ^
@@ -432,8 +439,9 @@ improv_rnn_generate ^
 --backing_chords="C G Am Em F C F G" ^
 --steps_per_chord=8 ^
 --render_chords=True 
-
+```
 Mac
+```
 improv_rnn_generate \
 --config=chord_pitches_improv \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/chord_pitches_improv.mag \
@@ -445,7 +453,7 @@ improv_rnn_generate \
 --backing_chords="C G Am Em F C F G" \
 --steps_per_chord=8 \
 --render_chords=True
-
+```
 
 primer_midiを使用してきらきら星の続き生成曲YouTube動画
 https://youtu.be/3Hb8MEcO3MA 
@@ -454,6 +462,7 @@ https://youtu.be/3Hb8MEcO3MA
 Improv RNN ４和音7thコードでの生成コマンド
 
 Windows 
+```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
 --bundle_file=¥Users¥User-name¥Documents¥chord_pitches_improv.mag ^
@@ -465,8 +474,9 @@ improv_rnn_generate ^
 --backing_chords="Fmaj7 Bm7b5 Em7 Am7" ^
 --steps_per_chord=16 ^
 --render_chords=True 
-
+```
 Mac 
+```
 improv_rnn_generate \
 --config=chord_pitches_improv \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/chord_pitches_improv.mag \
@@ -478,7 +488,7 @@ improv_rnn_generate \
 --backing_chords="Fmaj7 Bm7b5 Em7 Am7" \
 --steps_per_chord=16 \
 --render_chords=True
-
+```
 
 Improv RNN ４和音7thコードでの生成曲YouTube動画
 https://youtu.be/0RGkVaTwfRE 
@@ -488,6 +498,7 @@ https://youtu.be/0RGkVaTwfRE
 テンションコードを使用した音楽生成 コマンド
 
 Windows  
+```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
 --bundle_file=¥Users¥User-name¥Documents¥chord_pitches_improv.mag ^
@@ -499,8 +510,9 @@ improv_rnn_generate ^
 --backing_chords="Cmaj9 G11 Am9 Em7b13 Fmaj7#11 Cmaj9 Fmaj7#11 G9" ^
 --steps_per_chord=16 ^
 --render_chords=True 
-
+```
 Mac 
+```
 improv_rnn_generate \
 --config=chord_pitches_improv \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/chord_pitches_improv.mag \
@@ -512,8 +524,7 @@ improv_rnn_generate \
 --backing_chords="Cmaj9 G11 Am9 Em7b13 Fmaj7#11 Cmaj9 Fmaj7#11 G9" \
 --steps_per_chord=16 \
 --render_chords=True 
-
-
+```
 テンションコードのカノン進行で生成したメロディーYouTube動画
 https://youtu.be/iTBLo_VIAAg
 
@@ -522,6 +533,7 @@ https://youtu.be/iTBLo_VIAAg
 分数コードを使用した音楽生成 コマンド
 
 Windows  
+```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
 --bundle_file=¥Users¥User-name¥Documents¥chord_pitches_improv.mag ^
@@ -533,9 +545,10 @@ improv_rnn_generate ^
 --backing_chords="Cmaj9/C G11/B Am9 Em7b13/G Fmaj7#11 Cmaj9/E Fmaj7#11 G9" ^
 --steps_per_chord=16 ^
 --render_chords=True 
-
+```
 
 Mac 
+```
 improv_rnn_generate \
 --config=chord_pitches_improv \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/chord_pitches_improv.mag \
@@ -547,7 +560,7 @@ improv_rnn_generate \
 --backing_chords="Cmaj9/C G11/B Am9 Em7b13/G Fmaj7#11 Cmaj9/E Fmaj7#11 G9" \
 --steps_per_chord=16 \
 --render_chords=True 
-
+```
 
 分数コードを使用した生成曲YouTube動画
 https://youtu.be/wCeFboc_TVk
@@ -564,6 +577,7 @@ https://github.com/tensorflow/magenta/tree/master/magenta/models/polyphony_rnn
 バッハの様な合唱曲の生成コマンド
 
 Windows 
+```
 polyphony_rnn_generate ^
 --bundle_file=¥Users¥User-name¥Documents¥polyphony_rnn.mag ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music ^
@@ -575,8 +589,9 @@ polyphony_rnn_generate ^
 69, -2, -2, -2, 69, -2, -2, -2, 67, -2, -2, -2, -2, -2, -2, -2]" ^
 --condition_on_primer=False ^
 --inject_primer_during_generation=False 
-
+```
 Mac
+```
 polyphony_rnn_generate \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/polyphony_rnn.mag \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
@@ -588,13 +603,14 @@ polyphony_rnn_generate \
 69, -2, -2, -2, 69, -2, -2, -2, 67, -2, -2, -2, -2, -2, -2, -2]" \
 --condition_on_primer=False \
 --inject_primer_during_generation=False
-
+```
 バッハの様な合唱曲の生成YouTube動画
 https://youtu.be/HEHgOEyOysw 
 
 7-2-３ 
 和音を基にした合唱曲の生成 コマンド
 Windows 
+```
 polyphony_rnn_generate ^
 --bundle_file=¥Users¥User-name¥Documents¥polyphony_rnn.mag ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music ^
@@ -605,8 +621,9 @@ polyphony_rnn_generate ^
 --primer_pitches="[67,64,60]" ^
 --condition_on_primer=True ^
 --inject_primer_during_generation=False 
-
+```
 Mac
+```
 polyphony_rnn_generate \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/polyphony_rnn.mag \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
@@ -617,7 +634,7 @@ polyphony_rnn_generate \
 --primer_pitches="[67,64,60]" \
 --condition_on_primer=True \
 --inject_primer_during_generation=False
-
+```
 
 和音を基にした合唱生成曲のYouTube動画
 https://youtu.be/R8OqWrjeF4E 
@@ -627,6 +644,7 @@ https://youtu.be/R8OqWrjeF4E
 既存の楽曲にバッハ風ハーモニーを加える音楽生成コマンド
 
 Windows 
+```
 polyphony_rnn_generate ^
 --bundle_file=¥Users¥User-name¥Documents¥polyphony_rnn.mag ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music ^
@@ -635,9 +653,10 @@ polyphony_rnn_generate ^
 -primer_midi=¥Users¥User-name¥Downloads¥twinkle_full.mid ^
 --condition_on_primer=False ^
 --inject_primer_during_generation=True
- 
+ ```
  
 Mac
+```
 polyphony_rnn_generate \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/polyphony_rnn.mag \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
@@ -646,7 +665,7 @@ polyphony_rnn_generate \
 -primer_midi=/Users/User-name/Downloads/twinkle_full.mid \
 --condition_on_primer=False \
 --inject_primer_during_generation=True
-
+```
 既存の楽曲にバッハ風ハーモニーを加えた生成曲YouTube動画 
 https://youtu.be/cR3cmAo6haw
 
@@ -660,6 +679,7 @@ https://github.com/tensorflow/magenta/tree/master/magenta/models/pianoroll_rnn_n
 8-2-2
 Pianoroll RNNで複雑な和音メロディー曲の生成コマンド
 Windows 
+```
 pianoroll_rnn_nade_generate ^
 --bundle_file=¥Users¥User-name¥Documents¥pianoroll_rnn_nade.mag ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music ^
@@ -667,8 +687,9 @@ pianoroll_rnn_nade_generate ^
 --num_outputs=10 ^
 --num_steps=128 ^
 --primer_pianoroll="[(67,64,60), (62,), (64,), (65,), (69,67, 64), (), (70,), (65, 62)]"
- 
+```
 Mac 
+```
 pianoroll_rnn_nade_generate \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/pianoroll_rnn_nade.mag \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
@@ -676,7 +697,7 @@ pianoroll_rnn_nade_generate \
 --num_outputs=10 \
 --num_steps=128 \
 --primer_pianoroll="[(67,64,60), (62,), (64,), (65,), (69,67, 64), (), (70,), (65, 62)]"
-
+```
 
 Pianoroll RNNで複雑な和音メロディー曲視聴YouTube動画
 https://youtu.be/g9MXuGXdiwY 
@@ -696,6 +717,7 @@ https://github.com/tensorflow/magenta/tree/master/magenta/models/performance_rnn
 Performance RNNで高度なピアノ演奏曲の生成コマンド
 
 Windows 
+```
 performance_rnn_generate ^
 --config=multiconditioned_performance_with_dynamics ^
 --bundle_file=¥Users¥User-name¥Documents¥magenta-model¥multiconditioned_performance_with_dynamics.mag ^
@@ -705,8 +727,9 @@ performance_rnn_generate ^
 --notes_per_second=4 ^
 --pitch_class_histogram="[2, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1]" ^
 --primer_pitches="[71,67,64,60]" 
-
+```
 Mac
+```
 performance_rnn_generate \
 --config=multiconditioned_performance_with_dynamics \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/magenta-model/multiconditioned_performance_with_dynamics.mag \
@@ -716,7 +739,7 @@ performance_rnn_generate \
 --notes_per_second=4 \
 --pitch_class_histogram="[2, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1]" \
 --primer_pitches="[71,67,64,60]"
-
+```
 
 Performance RNNで高度なピアノ演奏曲生成曲視聴YouTubeリンク
 https://youtu.be/MA8i_Mol4c8
@@ -730,62 +753,70 @@ https://youtu.be/JPXheXQE4gI
 10-2-2
 NoteSequence（tfrecord）の作成
 
+
 Windows 
+```
 convert_dir_to_note_sequences ^
 --input_dir=¥Users¥User-name¥Documents¥midi500 ^
 --output_file=¥Users¥User-name¥Documents¥noteseq¥notesequences.tfrecord ^
 --recursive 
-
+```
 Mac
+```
 convert_dir_to_note_sequences \
 --input_dir= /Users/KazuyukiIida/Dropbox/aimusic/midi500 \
 --output_file= /Users/KazuyukiIida/Dropbox/aimusic/noteseq/notesequences.tfrecord \
 --recursive
- 
+```
 10-2-3
 学習データと評価データの作成コマンド
 
 Windows
+```
 melody_rnn_create_dataset ^
 --config=atention_rnn ^
 --input= ¥Users¥User-name¥Documents¥noteseq¥notesequences.tfrecord ^
 --output_dir= ¥Users¥User-name¥Documents¥sequence_examples ^
 --eval_ratio=0.2 
-
+```
  
 Mac
+```
 melody_rnn_create_dataset \
 --config=attention_rnn \
 --input=/Users/KazuyukiIida/Dropbox/aimusic/noteseq/notesequences.tfrecord \
 --output_dir=/Users/KazuyukiIida/Dropbox/aimusic/sequence_examples \
 --eval_ratio=0.2
-
+```
 
 10-2-4 
 学習（トレーニング）コマンド
 
 Windows 
+```
 melody_rnn_train ^
 --config=attention_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
 --sequence_example_file=¥Users¥User-name¥Documents¥sequence_examples¥training_melodies.tfrecord ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" ^
 --num_training_steps=10000 
-
+```
 Mac
+```
 melody_rnn_train \
 --config=attention_rnn \
 --run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
 --sequence_example_file=/Users/KazuyukiIida/Dropbox/aimusic/sequence_examples/training_melodies.tfrecord \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" \
 --num_training_steps=10000
-
+```
 
 
 10-2-5 
 評価コマンド
 
 Windows
+```
 melody_rnn_train ^
 --config=attention_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
@@ -793,8 +824,9 @@ melody_rnn_train ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" ^
 --num_training_steps=10000 ^
 --eval
-
+```
 Mac
+```
 melody_rnn_train \
 --config=attention_rnn \
 --run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
@@ -802,22 +834,25 @@ melody_rnn_train \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" \
 --num_training_steps=10000 \
 --eval
-
+```
 
 10-2-6 
 TensorBoardで学習の確認
 
 Windows
+```
 tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
- 
+ ```
 Mac
+```
 tensorboard --logdir=/Users/KazuyukiIida/Dropbox/aimusic/logdir
-
+```
 
 10-2-7 
 音楽生成コマンド
 
 Windows
+```
 melody_rnn_generate ^
 --config=attention_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
@@ -826,8 +861,9 @@ melody_rnn_generate ^
 --num_steps=128 ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" ^
 --primer_melody="[60]"
-
+```
 Mac
+```
 melody_rnn_generate \
 --config=attention_rnn \
 --run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
@@ -836,26 +872,28 @@ melody_rnn_generate \
 --num_steps=128 \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" \
 --primer_melody="[60]"
-
+```
 10-2-8 
 学習済みデータ（Bundleファイル）作成コマンド
 
 Windows
+```
 melody_rnn_generate ^
 --config=attention_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" ^
 --bundle_file=¥Users¥User-name¥Downloads¥aimusic_book_rnn.mag ^
 --save_generator_bundle
-
+```
 Mac
+```
 melody_rnn_generate \
 --config=attention_rnn \
 --run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" \
 --bundle_file=/Users/User-name/Downloads/aimusic_book_rnn.mag \
 --save_generator_bundle
-
+```
 
 第１１章
 11-1-3
@@ -877,6 +915,7 @@ https://github.com/magenta/magenta/releases
 
 Pythonファイルを使用した生成コマンド
 Windows
+```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnnmelody_rnn_generate.py ^
 --config=basic_rnn ^
 --bundle_file=¥Users¥User-name¥Documents¥basic_rnn.mag ^
@@ -885,9 +924,10 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnnmelody_rnn_genera
 --num_steps=64 ^
 --qpm=120.0 ^
 --primer_melody="[60]" 
-
+```
 
 Mac例
+```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=basic_rnn \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/basic_rnn.mag \
@@ -896,10 +936,11 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py
 --num_steps=64 \
 --qpm=120.0 \
 --primer_melody="[60]" 
-
+```
 
 11-2-5
 独自モデル設定 例 
+```
 midi500_8bars_rnn': MelodyRnnConfig( 
         generator_pb2.GeneratorDetails( 
             id='midi500_8bars_rnn', 
@@ -917,7 +958,7 @@ midi500_8bars_rnn': MelodyRnnConfig(
         min_note=48, 
         max_note=84, 
         transpose_to_key=0)
-
+```
 
 Jump to definition機能について詳しく知りたい方はこちらをご覧ください。 
 https://canplay-music.com/2019/06/16/jumptodef/ 
@@ -926,24 +967,28 @@ https://canplay-music.com/2019/06/16/jumptodef/
 11-2-6
 独自モデル学習コマンド例
 Windows
+```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_train.py ^
 --config=midi500_8bars_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
 --sequence_example_file=¥Users¥User-name¥Documents¥sequence_examples¥training_melodies.tfrecord ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
 --num_training_steps=9000
- 
+ ```
 Mac 
+```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 --config=midi500_8bars_rnn \
 --run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
 --sequence_example_file=/Users/KazuyukiIida/Dropbox/aimusic/sequence_examples/training_melodies.tfrecord \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
 --num_training_steps=9000
+```
 
 
 評価コマンド例 
 Windows
+```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_train.py ^
 --config=midi500_8bars_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
@@ -951,8 +996,9 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_trai
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
 --num_training_steps=9000 ^
 --eval
-
+```
 Mac
+```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 --config=midi500_8bars_rnn \
 --run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
@@ -960,14 +1006,16 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
 --num_training_steps=9000 \
 --eval 
-
+```
 TensorBoardコマンド例
 Windows
+```
 tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
-
+```
 Mac
+```
 tensorboard --logdir=/Users/KazuyukiIida/Dropbox/aimusic/logdir
- 
+ ```
 
 実行後 
 http://localhost:6006 
@@ -977,6 +1025,7 @@ http://localhost:6006
 
 学習中のチェックポイントファイルでの生成コマンド例
 Windows
+```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
@@ -985,8 +1034,9 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
 --num_steps=128 ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
 --primer_melody="[60]"
-
+```
 Mac
+```
 python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
 --run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
@@ -995,30 +1045,33 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.p
 --num_steps=128 \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
 --primer_melody="[60]"
-
+```
 
 11-2-7
 学習済みデータ作成コマンド例
 Windows
+```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
 --bundle_file=¥Users¥User-name¥Downloads¥midi500_8bars_rnn.mag ^
 --save_generator_bundle
-
+```
 Mac
+```
 python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
 --run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
 --bundle_file=/Users/User-name/Downloads/midi500_8bars_rnn.mag \
 --save_generator_bundle
-
+```
 
 
 独自モデルでの生成コマンド例
 Windows
+```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
 --bundle_file=¥Users¥User-name¥Downloads¥midi500_8bars_rnn.mag ^
@@ -1026,8 +1079,9 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
 --num_outputs=10 ^
 --num_steps=128 ^
 --primer_melody="[60]"
- 
+ ```
 Mac
+```
 python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
 --bundle_file=/Users/User-name/Downloads/midi500_8bars_rnn.mag \
@@ -1035,7 +1089,7 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.p
 --num_outputs=10 \
 --num_steps=128 \
 --primer_melody="[60]"
-
+```
 
 
 第１２章
