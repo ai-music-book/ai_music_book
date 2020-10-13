@@ -1,0 +1,1 @@
+tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
