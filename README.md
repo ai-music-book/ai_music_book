@@ -61,7 +61,7 @@ melody_rnn_generate ^
 --qpm=120.0 ^
 --primer_melody="[60]"
 ```
-Mac例
+- Mac例
 ```
 melody_rnn_generate \
 --config=basic_rnn \
@@ -90,7 +90,7 @@ melody_rnn_generate ^
 --qpm=120.0 ^
 --primer_midi=¥Users¥User-name¥Documents¥song001.mid
 ```
-Mac例
+- Mac例
 ```
 melody_rnn_generate \
 --config=basic_rnn \
@@ -118,7 +118,7 @@ drums_rnn_generate ^
 --qpm=120.0 ^
 --primer_drums="[(36,)]"
 ```
-Mac例
+- Mac例
 ```
 melody_rnn_generate \
 --config=one_drum \
@@ -146,7 +146,7 @@ drums_rnn_generate ^
 --qpm=120.0 ^
 --primer_midi=¥Users¥User-name¥Documents¥song001.mid
 ```
-Mac例
+- Mac例
 ```
 drums_rnn_generate \
 --config=one_drum \
@@ -180,7 +180,7 @@ music_vae_generate ^
 --num_outputs=10 ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music
 ```
-Mac例
+- Mac例
 ```
 music_vae_generate \
 --config=hierdec-trio_16bar \
@@ -205,7 +205,7 @@ music_vae_generate ^
 --input_midi_2=¥Users¥User-name¥Documents¥interpolate02.mid ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music
 ```
-Mac例
+- Mac例
 ```
 music_vae_generate \
 --config=hierdec-trio_16bar \
@@ -231,7 +231,7 @@ music_vae_generate ^
 --temperature=1.0 ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music
 ```
-Mac例
+- Mac例
 ```
 music_vae_generate \
 --config=nade-drums_2bar_full \
@@ -255,7 +255,7 @@ music_vae_generate ^
 --temperature=1.0 ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music
 ```
-Mac例
+- Mac例
 ```
 music_vae_generate \
 --config=groovae_4bar \
@@ -282,7 +282,7 @@ music_vae_generate ^
 --input_midi_2=¥Users¥User-name¥Documents¥no-hh-16beat.mid ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music
 ```
-Mac例
+- Mac例
 ```
 music_vae_generate \
 --config=groovae_2bar_add_closed_hh \
@@ -316,7 +316,7 @@ improv_rnn_generate ^
 --steps_per_chord=16 ^
 --render_chords=True
 ```
-Mac 
+- Mac例
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -348,7 +348,7 @@ improv_rnn_generate ^
 --steps_per_chord=16 ^
 --render_chords=True
 ```
-Mac 
+- Mac例
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -380,7 +380,7 @@ improv_rnn_generate ^
 --steps_per_chord=8 ^
 --render_chords=True
 ```
-Mac
+- Mac例
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -412,7 +412,7 @@ improv_rnn_generate ^
 --steps_per_chord=16 ^
 --render_chords=True
 ```
-Mac 
+- Mac例
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -444,7 +444,7 @@ improv_rnn_generate ^
 --steps_per_chord=16 ^
 --render_chords=True
 ```
-Mac
+- Mac例
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -476,7 +476,7 @@ improv_rnn_generate ^
 --steps_per_chord=16 ^
 --render_chords=True
 ```
-Mac 
+- Mac例
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -513,7 +513,7 @@ polyphony_rnn_generate ^
 --condition_on_primer=False ^
 --inject_primer_during_generation=False
 ```
-Mac
+- Mac例
 ```
 polyphony_rnn_generate \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/polyphony_rnn.mag \
@@ -544,7 +544,7 @@ polyphony_rnn_generate ^
 --condition_on_primer=True ^
 --inject_primer_during_generation=False
 ```
-Mac
+- Mac例
 ```
 polyphony_rnn_generate \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/polyphony_rnn.mag \
@@ -573,7 +573,7 @@ polyphony_rnn_generate ^
 --condition_on_primer=False ^
 --inject_primer_during_generation=True
  ```
-Mac
+- Mac例
 ```
 polyphony_rnn_generate \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/polyphony_rnn.mag \
@@ -605,7 +605,7 @@ pianoroll_rnn_nade_generate ^
 --num_steps=128 ^
 --primer_pianoroll="[(67,64,60), (62,), (64,), (65,), (69,67, 64), (), (70,), (65, 62)]"
 ```
-Mac 
+- Mac例
 ```
 pianoroll_rnn_nade_generate \
 --bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/pianoroll_rnn_nade.mag \
@@ -639,7 +639,7 @@ performance_rnn_generate ^
 --pitch_class_histogram="[2, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1]" ^
 --primer_pitches="[71,67,64,60]"
 ```
-Mac
+- Mac例
 ```
 performance_rnn_generate \
 --config=multiconditioned_performance_with_dynamics \
@@ -667,7 +667,7 @@ convert_dir_to_note_sequences ^
 --output_file=¥Users¥User-name¥Documents¥noteseq¥notesequences.tfrecord ^
 --recursive
 ```
-Mac
+- Mac例
 ```
 convert_dir_to_note_sequences \
 --input_dir= /Users/KazuyukiIida/Dropbox/aimusic/midi500 \
@@ -703,7 +703,7 @@ melody_rnn_train ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" ^
 --num_training_steps=10000
 ```
-Mac
+- Mac例
 ```
 melody_rnn_train \
 --config=attention_rnn \
@@ -724,7 +724,7 @@ melody_rnn_train ^
 --num_training_steps=10000 ^
 --eval
 ```
-Mac
+- Mac例
 ```
 melody_rnn_train \
 --config=attention_rnn \
@@ -741,7 +741,7 @@ TensorBoardで学習の確認
 ```
 tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
 ```
-Mac
+- Mac例
 ```
 tensorboard --logdir=/Users/KazuyukiIida/Dropbox/aimusic/logdir
 ```
@@ -760,7 +760,7 @@ melody_rnn_generate ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64],attn_length=40" ^
 --primer_melody="[60]"
 ```
-Mac
+- Mac例
 ```
 melody_rnn_generate \
 --config=attention_rnn \
@@ -783,7 +783,7 @@ melody_rnn_generate ^
 --bundle_file=¥Users¥User-name¥Downloads¥aimusic_book_rnn.mag ^
 --save_generator_bundle
 ```
-Mac
+- Mac例
 ```
 melody_rnn_generate \
 --config=attention_rnn \
@@ -822,8 +822,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnnmelody_rnn_genera
 --qpm=120.0 ^
 --primer_melody="[60]"
 ```
-
-Mac例
+- Mac例
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=basic_rnn \
@@ -871,7 +870,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_trai
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
 --num_training_steps=9000
  ```
-Mac 
+- Mac例
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 --config=midi500_8bars_rnn \
@@ -892,7 +891,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_trai
 --num_training_steps=9000 ^
 --eval
 ```
-Mac
+- Mac例
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 --config=midi500_8bars_rnn \
@@ -907,7 +906,7 @@ TensorBoardコマンド例
 ```
 tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
 ```
-Mac
+- Mac例
 ```
 tensorboard --logdir=/Users/KazuyukiIida/Dropbox/aimusic/logdir
  ```
@@ -928,7 +927,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
 --primer_melody="[60]"
 ```
-Mac
+- Mac例
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
@@ -951,7 +950,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
 --bundle_file=¥Users¥User-name¥Downloads¥midi500_8bars_rnn.mag ^
 --save_generator_bundle
 ```
-Mac
+- Mac例
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
@@ -972,7 +971,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
 --num_steps=128 ^
 --primer_melody="[60]"
  ```
-Mac
+- Mac例
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
@@ -982,73 +981,52 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.p
 --num_steps=128 \
 --primer_melody="[60]"
 ```
-
 ## 第１２章
 #### 12-1-2
 TensorFlowサイトのGPU環境ソフトウェア要件情報
 https://www.tensorflow.org/install/gpu
-
 #### 12-2-1
 NVIDIA GPUドライバダウンロードページ
 https://www.nvidia.co.jp/Download/index.aspx?lang=jp
-
 #### 12-2-2
 CUDA Toolkitダウンロードページ
 https://developer.nvidia.com/cuda-downloads
- 
 #### 12-2-3
 cuDNNダウンロードページ
 https://developer.nvidia.com/rdp/cudnn-download
-
 ## 第１３章
 #### 13-1
 - A.I.Duet
 https://experiments.withgoogle.com/ai/ai-duet/view/
-
 - Piano Genie
 http://piano-genie.glitch.me/
- 
 - NSynth Sound Maker
 https://experiments.withgoogle.com/ai/sound-maker/view/
-
 - Melody Mixer
 https://experiments.withgoogle.com/ai/melody-mixer/view/
-
 - PerformanceRNN
 https://magenta.tensorflow.org/demos/performance_rnn/
-
 - Latent Loops
 https://teampieshop.github.io/latent-loops/
-
 - Beat Blender
 https://experiments.withgoogle.com/ai/beat-blender/view/
-
 - Multitrack Chords
 https://codepen.io/iansimon/full/GGRYJZ
-
 - MultiTrack Interpolating
 https://codepen.io/iansimon/full/Bxgbgz/
-
 - Piano Scribe
 https://piano-scribe.glitch.me/
-
 #### 13-2
 - Magenta Studio ダウンロードリンク
 https://magenta.tensorflow.org/studio
-
 - Magenta Studio YouTube動画リンク
-
 - CONTINUE
 https://youtu.be/5WYAK_J_XLU
-
 - GENERATE 4BARS
 https://youtu.be/-8bMPJ_Zo9E
-
 - INTERPOLATE
 https://youtu.be/D2ASaVMKZRs
-
 - GrooVAE
 https://youtu.be/3MmuWFkgYUY
-
 - DRUMIFY
 https://youtu.be/eYUaYzfZUCo
