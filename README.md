@@ -798,19 +798,13 @@ melody_rnn_generate \
 Gitダウンロードリンク
 - Windows
 https://gitforwindows.org/
-
-Mac
+- Mac
 https://sourceforge.net/projects/git-osx-installer/files/
-
-Magentaレポジトリのダウンロード（ZIPファイル）
+- Magentaレポジトリのダウンロード（ZIPファイル）
 https://github.com/tensorflow/magenta
-
-
-Magentaの過去のリリース一覧
+- Magentaの過去のリリース一覧
 https://github.com/magenta/magenta/releases
-
-
-Pythonファイルを使用した生成コマンド
+- Pythonファイルを使用した生成コマンド
 - Windows例
 ```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnnmelody_rnn_generate.py ^
@@ -833,7 +827,6 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py
 --qpm=120.0 \
 --primer_melody="[60]"
 ```
-
 #### 11-2-5
 独自モデル設定 例
 ```
@@ -857,8 +850,6 @@ midi500_8bars_rnn': MelodyRnnConfig(
 ```
 Jump to definition機能について詳しく知りたい方はこちらをご覧ください。
 https://canplay-music.com/2019/06/16/jumptodef/
-
-
 #### 11-2-6
 独自モデル学習コマンド例
 - Windows例
@@ -879,7 +870,6 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
 --num_training_steps=9000
 ```
-
 評価コマンド例
 - Windows例
 ```
@@ -909,8 +899,7 @@ tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
 - Mac例
 ```
 tensorboard --logdir=/Users/KazuyukiIida/Dropbox/aimusic/logdir
- ```
-
+```
 実行後
 http://localhost:6006
 でブラウザからTensorBoardを開きます。
@@ -938,7 +927,6 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.p
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
 --primer_melody="[60]"
 ```
-
 #### 11-2-7
 学習済みデータ作成コマンド例
 - Windows例
@@ -959,7 +947,6 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.p
 --bundle_file=/Users/User-name/Downloads/midi500_8bars_rnn.mag \
 --save_generator_bundle
 ```
-
 独自モデルでの生成コマンド例
 - Windows例
 ```
@@ -970,7 +957,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
 --num_outputs=10 ^
 --num_steps=128 ^
 --primer_melody="[60]"
- ```
+```
 - Mac例
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
