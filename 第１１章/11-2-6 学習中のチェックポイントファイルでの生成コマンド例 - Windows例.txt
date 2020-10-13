@@ -1,0 +1,8 @@
+python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
+--config=midi500_8bars_rnn ^
+--run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
+--output_dir=¥Users¥User-name¥Documents¥magenta-music ^
+--num_outputs=10 ^
+--num_steps=128 ^
+--hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
+--primer_melody="[60]"

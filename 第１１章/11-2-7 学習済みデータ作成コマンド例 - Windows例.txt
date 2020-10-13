@@ -1,0 +1,6 @@
+python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
+--config=midi500_8bars_rnn ^
+--run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
+--hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
+--bundle_file=¥Users¥User-name¥Downloads¥midi500_8bars_rnn.mag ^
+--save_generator_bundle

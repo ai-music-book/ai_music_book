@@ -1,0 +1,17 @@
+midi500_8bars_rnn': MelodyRnnConfig(
+        generator_pb2.GeneratorDetails(
+            id='midi500_8bars_rnn',
+            description='500 8bars midi files with lookback'),
+        magenta.music.LookbackEventSequenceEncoderDecoder(
+            magenta.music.MelodyOneHotEncoding(
+                min_note=0,
+                max_note=128)),
+        contrib_training.HParams(
+            batch_size=64,
+            rnn_layer_sizes=[64, 64],
+            dropout_keep_prob=0.5,
+            clip_norm=5,
+            learning_rate=0.001),
+        min_note=48,
+        max_note=84,
+        transpose_to_key=0)
