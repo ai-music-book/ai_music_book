@@ -1,0 +1,7 @@
+music_vae_generate \
+--config=groovae_4bar \
+--checkpoint_file=/Users/KazuyukiIida/Dropbox/aimusic/groovae_4bar.tar \
+--mode=sample \
+--num_outputs=10 \
+--temperature=1.0 \
+--output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music

@@ -1,0 +1,8 @@
+music_vae_generate \
+--config=hierdec-trio_16bar \
+--checkpoint_file=/Users/KazuyukiIida/Dropbox/aimusic/hierdec-trio_16bar.tar \
+--mode=interpolate \
+--num_outputs=10 \
+--input_midi_1=/Users/KazuyukiIida/Dropbox/aimusic/interpolate01.mid \
+--input_midi_2=/Users/KazuyukiIida/Dropbox/aimusic/interpolate02.mid \
+--output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music

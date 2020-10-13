@@ -1,0 +1,11 @@
+improv_rnn_generate \
+--config=chord_pitches_improv \
+--bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/chord_pitches_improv.mag \
+--output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
+--num_outputs=10 \
+--temperature=1.0 \
+--qpm=120.0 \
+--primer_melody="[65, -2, -2, -2, 65, -2, 67, 69, -2, -2, -2, -1, 65, -1, 69, -2]" \
+--backing_chords="Fmaj7 Bm7b5 Em7 Am7" \
+--steps_per_chord=16 \
+--render_chords=True
