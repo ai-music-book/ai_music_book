@@ -489,10 +489,9 @@ improv_rnn_generate \
 --steps_per_chord=16 \
 --render_chords=True
 ```
-
 分数コードを使用した生成曲YouTube動画
 https://youtu.be/wCeFboc_TVk
-##第７章
+## 第７章
 #### 7-1-2
 GitHubのPolyphony RNNページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/polyphony_rnn
@@ -528,7 +527,7 @@ polyphony_rnn_generate \
 ```
 バッハの様な合唱曲の生成YouTube動画
 https://youtu.be/HEHgOEyOysw
-#### 7-2-３ 
+#### 7-2-３
 和音を基にした合唱曲の生成 コマンド
 - Windows例
 ```
@@ -558,8 +557,7 @@ polyphony_rnn_generate \
 ```
 和音を基にした合唱生成曲のYouTube動画
 https://youtu.be/R8OqWrjeF4E 
-
-#### 7-2-4 
+#### 7-2-4
 既存の楽曲にバッハ風ハーモニーを加える音楽生成コマンド
 - Windows例
 ```
@@ -585,13 +583,10 @@ polyphony_rnn_generate \
 ```
 既存の楽曲にバッハ風ハーモニーを加えた生成曲YouTube動画
 https://youtu.be/cR3cmAo6haw
-
-
 ## 第８章
 #### 8-1-2
 GitHubのPianoroll RNNのページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/pianoroll_rnn_nade
-
 #### 8-2-2
 Pianoroll RNNで複雑な和音メロディー曲の生成コマンド
 - Windows例
@@ -615,13 +610,11 @@ pianoroll_rnn_nade_generate \
 --primer_pianoroll="[(67,64,60), (62,), (64,), (65,), (69,67, 64), (), (70,), (65, 62)]"
 ```
 Pianoroll RNNで複雑な和音メロディー曲視聴YouTube動画
-https://youtu.be/g9MXuGXdiwY 
-
+https://youtu.be/g9MXuGXdiwY
 ## 第９章
 #### 9-1-2
 YAMAHA E-Piano-Competitionの各演奏MIDIファイル
 http://www.piano-e-competition.com/midiinstructions.asp
-
 GitHubのPerformance RNNページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/performance_rnn
 #### 9-2-2
@@ -652,10 +645,8 @@ performance_rnn_generate \
 ```
 Performance RNNで高度なピアノ演奏曲生成曲視聴YouTubeリンク
 https://youtu.be/MA8i_Mol4c8
-
 Performance RNNブルース風の生成曲視聴YouTubeリンク
 https://youtu.be/JPXheXQE4gI
-
 ## 第１０章
 #### 10-2-2
 NoteSequence（tfrecord）の作成
@@ -744,10 +735,8 @@ tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
 ```
 tensorboard --logdir=/Users/KazuyukiIida/Dropbox/aimusic/logdir
 ```
-
 #### 10-2-7 
 音楽生成コマンド
-
 - Windows例
 ```
 melody_rnn_generate ^
@@ -772,7 +761,6 @@ melody_rnn_generate \
 ```
 #### 10-2-8 
 学習済みデータ（Bundleファイル）作成コマンド
-
 - Windows例
 ```
 melody_rnn_generate ^
@@ -791,7 +779,6 @@ melody_rnn_generate \
 --bundle_file=/Users/User-name/Downloads/aimusic_book_rnn.mag \
 --save_generator_bundle
 ```
-
 ## 第１１章
 #### 11-1-3
 Gitダウンロードリンク
