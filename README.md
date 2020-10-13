@@ -22,13 +22,11 @@ MIDIファイルはダウンロードして該当のファイルを使用して�
 こちらもご自身の用途に合わせ適宜変更してください。
 Magenta（含むTensorFlowなどの依存ライブラリ）の更新によって新たに発生したエラーがある場合、その対策もここに記載します。
 ## 第１章
-### 1-1
 #### 1-1-1
 - AIで自動作曲し音楽生成のリアル動画
 https://youtu.be/oulHBPrFa8c
 - AIで自動生成したピアノ曲
 https://youtu.be/ovtD_2zGOQo
-### 1-2
 #### 1-2-1
 - Magentaウェブサイト
 https://magenta.tensorflow.org/
@@ -137,170 +135,13 @@ https://sourceforge.net/projects/git-osx-installer/files/
 https://github.com/tensorflow/magenta
 - Magentaの過去のリリース一覧
 https://github.com/magenta/magenta/releases
-- Pythonファイルを使用した生成コマンド
-- Windows例
-```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnnmelody_rnn_generate.py ^
---config=basic_rnn ^
---bundle_file=¥Users¥User-name¥Documents¥basic_rnn.mag ^
---output_dir=¥Users¥User-name¥Documents¥magenta-music ^
---num_outputs=5 ^
---num_steps=64 ^
---qpm=120.0 ^
---primer_melody="[60]"
-```
-- Mac例
-```
-python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
---config=basic_rnn \
---bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/basic_rnn.mag \
---output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
---num_outputs=5 \
---num_steps=64 \
---qpm=120.0 \
---primer_melody="[60]"
-```
-#### 11-2-5
-独自モデル設定 例
-```
-midi500_8bars_rnn': MelodyRnnConfig(
-        generator_pb2.GeneratorDetails(
-            id='midi500_8bars_rnn',
-            description='500 8bars midi files with lookback'),
-        magenta.music.LookbackEventSequenceEncoderDecoder(
-            magenta.music.MelodyOneHotEncoding(
-                min_note=0,
-                max_note=128)),
-        contrib_training.HParams(
-            batch_size=64,
-            rnn_layer_sizes=[64, 64],
-            dropout_keep_prob=0.5,
-            clip_norm=5,
-            learning_rate=0.001),
-        min_note=48,
-        max_note=84,
-        transpose_to_key=0)
-```
 Jump to definition機能について詳しく知りたい方はこちらをご覧ください。
 https://canplay-music.com/2019/06/16/jumptodef/
 #### 11-2-6
-独自モデル学習コマンド例
-- Windows例
-```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_train.py ^
---config=midi500_8bars_rnn ^
---run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
---sequence_example_file=¥Users¥User-name¥Documents¥sequence_examples¥training_melodies.tfrecord ^
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
---num_training_steps=9000
- ```
-- Mac例
-```
-python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
---config=midi500_8bars_rnn \
---run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
---sequence_example_file=/Users/KazuyukiIida/Dropbox/aimusic/sequence_examples/training_melodies.tfrecord \
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
---num_training_steps=9000
-```
-評価コマンド例
-- Windows例
-```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_train.py ^
---config=midi500_8bars_rnn ^
---run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
---sequence_example_file=¥Users¥User-name¥Documents¥sequence_examples¥eval_melodies.tfrecord ^
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
---num_training_steps=9000 ^
---eval
-```
-- Mac例
-```
-python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
---config=midi500_8bars_rnn \
---run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
---sequence_example_file=/Users/KazuyukiIida/Dropbox/aimusic/sequence_examples/eval_melodies.tfrecord \
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
---num_training_steps=9000 \
---eval
-```
-TensorBoardコマンド例
-- Windows例
-```
-tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
-```
-- Mac例
-```
-tensorboard --logdir=/Users/KazuyukiIida/Dropbox/aimusic/logdir
-```
 実行後
 http://localhost:6006
 でブラウザからTensorBoardを開きます。
 
-学習中のチェックポイントファイルでの生成コマンド例
-- Windows例
-```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
---config=midi500_8bars_rnn ^
---run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
---output_dir=¥Users¥User-name¥Documents¥magenta-music ^
---num_outputs=10 ^
---num_steps=128 ^
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
---primer_melody="[60]"
-```
-- Mac例
-```
-python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
---config=midi500_8bars_rnn \
---run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
---output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
---num_outputs=10 \
---num_steps=128 \
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
---primer_melody="[60]"
-```
-#### 11-2-7
-学習済みデータ作成コマンド例
-- Windows例
-```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
---config=midi500_8bars_rnn ^
---run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
---bundle_file=¥Users¥User-name¥Downloads¥midi500_8bars_rnn.mag ^
---save_generator_bundle
-```
-- Mac例
-```
-python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
---config=midi500_8bars_rnn \
---run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
---bundle_file=/Users/User-name/Downloads/midi500_8bars_rnn.mag \
---save_generator_bundle
-```
-独自モデルでの生成コマンド例
-- Windows例
-```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
---config=midi500_8bars_rnn ^
---bundle_file=¥Users¥User-name¥Downloads¥midi500_8bars_rnn.mag ^
---output_dir=¥Users¥User-name¥Documents¥magenta-music ^
---num_outputs=10 ^
---num_steps=128 ^
---primer_melody="[60]"
-```
-- Mac例
-```
-python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
---config=midi500_8bars_rnn \
---bundle_file=/Users/User-name/Downloads/midi500_8bars_rnn.mag \
---output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
---num_outputs=10 \
---num_steps=128 \
---primer_melody="[60]"
-```
 ## 第１２章
 #### 12-1-2
 TensorFlowサイトのGPU環境ソフトウェア要件情報
