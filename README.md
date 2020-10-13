@@ -33,11 +33,10 @@ https://magenta.tensorflow.org/
 #### 1-2-2
 - バッハのDoodle
 https://www.google.com/doodles/celebrating-johann-sebastian-bach
-補足解説
+- 補足解説
 TensorFlowウェブサイト
 https://www.tensorflow.org/
 ## 第２章
-### 2-2
 #### 2-2-2
 - Pythonウェブサイト
 https://www.python.org/
@@ -46,84 +45,83 @@ https://www.python.org/
 - Melody RNNのGitHubページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn
 #### 3-2-3
-Melody RNN 生成曲のYouTube動画URL
+- Melody RNN 生成曲のYouTube動画URL
 https://youtu.be/tjzXqiiQxDI
-MuseScoreダウンロードページ
+- MuseScoreダウンロードページ
 https://musescore.org/ja/download
 ## 第４章
 #### 4-2-1
-Drums RNNのGitHubページ
+- Drums RNNのGitHubページ
 https://GitHub.com/tensorflow/magenta/tree/master/magenta/models/drums_rnn
 #### 4-2-2
-Drums RNN 生成曲視聴YouTube
+- Drums RNN 生成曲視聴YouTube
 https://youtu.be/pBuPmrNURxY
-Drums RNN primer_midi 生成曲のYouTube動画URL
+- Drums RNN primer_midi 生成曲のYouTube動画URL
 https://youtu.be/HWkqKxB_rNs
 ## 第５章
 #### 5-1-1
-MuiscVAE生成比較動画
+- MuiscVAE生成比較動画
 https://youtu.be/K0_XQOf_CJw
 #### 5-1-3
-GrooVaeの仕組み
+- GrooVaeの仕組み
 https://youtu.be/BeMiYihe09s
 #### 5-1-4
-MusicVAEのGitHubページ
+- MusicVAEのGitHubページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae
 #### 5-2-2
-MusicVae sampleモード生成曲のYouTube動画URL
+- MusicVae sampleモード生成曲のYouTube動画URL
 https://youtu.be/oa5T1mp1zdk
 #### 5-2-3
-MusicVAE Interplateモード生成曲のYouTube動画URL
+- MusicVAE Interplateモード生成曲のYouTube動画URL
 https://youtu.be/Kqe0TAisazg
-MusicVAE nade-drums_2bar_full生成曲のYouTube動画URL
+- MusicVAE nade-drums_2bar_full生成曲のYouTube動画URL
 https://youtu.be/sQEsK1VNEyw
-MusicVAE groovae_4bar生成曲のYouTube動画URL
+- MusicVAE groovae_4bar生成曲のYouTube動画URL
 https://youtu.be/tjB6HyDvPHE
-MusicVAE groovae_2bar_add_closed_hh生成曲視聴YouTube
+- MusicVAE groovae_2bar_add_closed_hh生成曲視聴YouTube
 https://youtu.be/4q7zMi0jiuo
 ## 第６章
 #### 6-1-3
-Improv RNNのGitHubページ
+- Improv RNNのGitHubページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/improv_rnn
-Improv RNN生成曲のYouTube動画URL
+- Improv RNN生成曲のYouTube動画URL
 https://youtu.be/43iCXzK9iYg
-Improv RNN primer_melodyを駆使した カノン進行生成曲YouTube視聴動画URL
+- Improv RNN primer_melodyを駆使した カノン進行生成曲YouTube視聴動画URL
 https://youtu.be/gZBf7cgqyMI
-primer_midiを使用してきらきら星の続き生成曲YouTube動画
+- primer_midiを使用してきらきら星の続き生成曲YouTube動画
 https://youtu.be/3Hb8MEcO3MA
-Improv RNN ４和音7thコードでの生成曲YouTube動画
+- Improv RNN ４和音7thコードでの生成曲YouTube動画
 https://youtu.be/0RGkVaTwfRE
-テンションコードのカノン進行で生成したメロディーYouTube動画
+- テンションコードのカノン進行で生成したメロディーYouTube動画
 https://youtu.be/iTBLo_VIAAg
-分数コードを使用した生成曲YouTube動画
+- 分数コードを使用した生成曲YouTube動画
 https://youtu.be/wCeFboc_TVk
 ## 第７章
 #### 7-1-2
-GitHubのPolyphony RNNページ
+- GitHubのPolyphony RNNページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/polyphony_rnn
-バッハの様な合唱曲の生成YouTube動画
+- バッハの様な合唱曲の生成YouTube動画
 https://youtu.be/HEHgOEyOysw
-和音を基にした合唱生成曲のYouTube動画
+- 和音を基にした合唱生成曲のYouTube動画
 https://youtu.be/R8OqWrjeF4E 
-既存の楽曲にバッハ風ハーモニーを加えた生成曲YouTube動画
+- 既存の楽曲にバッハ風ハーモニーを加えた生成曲YouTube動画
 https://youtu.be/cR3cmAo6haw
 ## 第８章
 #### 8-1-2
-GitHubのPianoroll RNNのページ
+- GitHubのPianoroll RNNのページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/pianoroll_rnn_nade
-Pianoroll RNNで複雑な和音メロディー曲視聴YouTube動画
+- Pianoroll RNNで複雑な和音メロディー曲視聴YouTube動画
 https://youtu.be/g9MXuGXdiwY
 ## 第９章
 #### 9-1-2
-YAMAHA E-Piano-Competitionの各演奏MIDIファイル
+- YAMAHA E-Piano-Competitionの各演奏MIDIファイル
 http://www.piano-e-competition.com/midiinstructions.asp
-GitHubのPerformance RNNページ
+- GitHubのPerformance RNNページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/performance_rnn
-Performance RNNで高度なピアノ演奏曲生成曲視聴YouTubeリンク
+- Performance RNNで高度なピアノ演奏曲生成曲視聴YouTubeリンク
 https://youtu.be/MA8i_Mol4c8
-Performance RNNブルース風の生成曲視聴YouTubeリンク
+- Performance RNNブルース風の生成曲視聴YouTubeリンク
 https://youtu.be/JPXheXQE4gI
-## 第１０章
 ## 第１１章
 #### 11-1-3
 Gitダウンロードリンク
@@ -141,19 +139,18 @@ https://canplay-music.com/2019/06/16/jumptodef/
 実行後
 http://localhost:6006
 でブラウザからTensorBoardを開きます。
-
 ## 第１２章
 #### 12-1-2
-TensorFlowサイトのGPU環境ソフトウェア要件情報
+- TensorFlowサイトのGPU環境ソフトウェア要件情報
 https://www.tensorflow.org/install/gpu
 #### 12-2-1
-NVIDIA GPUドライバダウンロードページ
+- NVIDIA GPUドライバダウンロードページ
 https://www.nvidia.co.jp/Download/index.aspx?lang=jp
 #### 12-2-2
-CUDA Toolkitダウンロードページ
+- CUDA Toolkitダウンロードページ
 https://developer.nvidia.com/cuda-downloads
 #### 12-2-3
-cuDNNダウンロードページ
+- cuDNNダウンロードページ
 https://developer.nvidia.com/rdp/cudnn-download
 ## 第１３章
 #### 13-1
