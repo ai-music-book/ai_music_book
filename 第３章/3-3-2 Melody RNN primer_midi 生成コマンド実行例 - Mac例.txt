@@ -1,0 +1,8 @@
+melody_rnn_generate \
+--config=basic_rnn \
+--bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/basic_rnn.mag \
+--output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
+--num_outputs=5 \
+--num_steps=64 \
+--qpm=120.0 \
+--primer_midi=/Users/KazuyukiIida/Dropbox/aimusic/song001.mid
