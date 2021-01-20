@@ -1,8 +1,0 @@
-music_vae_generate ^
---config=hierdec-trio_16bar ^
---checkpoint_file=¥Users¥User-name¥Documents¥hierdec-trio_16bar.tar ^
---mode=interpolate ^
---num_outputs=10 ^
---input_midi_1=¥Users¥User-name¥Documents¥interpolate01.mid ^
---input_midi_2=¥Users¥User-name¥Documents¥interpolate02.mid ^
---output_dir=¥Users¥User-name¥Documents¥magenta-music
