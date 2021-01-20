@@ -1,9 +1,0 @@
-performance_rnn_generate \
---config=multiconditioned_performance_with_dynamics \
---bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/magenta-model/multiconditioned_performance_with_dynamics.mag \
---output_dir=/Users/YoshihiroSaito/Documents/magenta-music \
---num_outputs=10 \
---num_steps=3000 \
---notes_per_second=4 \
---pitch_class_histogram="[2, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1]" \
---primer_pitches="[71,67,64,60]"
