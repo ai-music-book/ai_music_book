@@ -1,5 +1,0 @@
-melody_rnn_create_dataset \
---config=attention_rnn \
---input=/Users/KazuyukiIida/Dropbox/aimusic/noteseq/notesequences.tfrecord \
---output_dir=/Users/KazuyukiIida/Dropbox/aimusic/sequence_examples \
---eval_ratio=0.2
