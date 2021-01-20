@@ -1,8 +1,0 @@
-drums_rnn_generate \
---config=one_drum \
---bundle_file=/Users/KazuyukiIida/Dropbox/aimusic/drum_kit_rnn.mag \
---output_dir=/Users/KazuyukiIida/Dropbox/aimusic/magenta-music \
---num_outputs=1 \
---num_steps=256 \
---qpm=120.0 \
---primer_midi=/Users/KazuyukiIida/Dropbox/aimusic/drums001.mid
