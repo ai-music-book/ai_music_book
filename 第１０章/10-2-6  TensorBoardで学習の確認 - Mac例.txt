@@ -1,1 +1,0 @@
-tensorboard --logdir=/Users/KazuyukiIida/Dropbox/aimusic/logdir
