@@ -1,7 +1,0 @@
-music_vae_generate ^
---config=nade-drums_2bar_full ^
---checkpoint_file=¥Users¥User-name¥Documents¥nade-drums_2bar_full.tar ^
---mode=sample ^
---num_outputs=10 ^
---temperature=1.0 ^
---output_dir=¥Users¥User-name¥Documents¥magenta-music
