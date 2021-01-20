@@ -1,0 +1,26 @@
+7-2-3
+和音を基にした合唱曲の生成 コマンド
+
+Windows 
+polyphony_rnn_generate ^
+--bundle_file=¥Users¥User-name¥Documents¥polyphony_rnn.mag ^
+--output_dir=¥Users¥User-name¥Documents¥magenta-music ^
+--num_outputs=10 ^
+--num_steps=133 ^
+--temperature=1.0 ^
+--qpm=120.0 ^
+--primer_pitches="[67,64,60]" ^
+--condition_on_primer=True ^
+--inject_primer_during_generation=False 
+
+Mac
+polyphony_rnn_generate \
+--bundle_file=/Users/User-name/Documents/polyphony_rnn.mag \
+--output_dir=/Users/User-name/Documents/magenta-music \
+--num_outputs=10 \
+--num_steps=133 \
+--temperature=1.0 \
+--qpm=120.0 \
+--primer_pitches="[67,64,60]" \
+--condition_on_primer=True \
+--inject_primer_during_generation=False
