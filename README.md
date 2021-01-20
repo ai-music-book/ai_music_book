@@ -31,166 +31,233 @@ Magenta（含むTensorFlowなどの依存ライブラリ）のバージョンア
 #### 1-1-1
 - AIで自動作曲し音楽生成のリアル動画
 https://youtu.be/oulHBPrFa8c
+
 - AIで自動生成したピアノ曲
 https://youtu.be/ovtD_2zGOQo
+
 #### 1-2-1
 - Magentaウェブサイト
 https://magenta.tensorflow.org/
+
 #### 1-2-2
 - バッハのDoodle
 https://www.google.com/doodles/celebrating-johann-sebastian-bach
+
 - 補足解説
 TensorFlowウェブサイト
 https://www.tensorflow.org/
+
+
 ## 第２章
 #### 2-2-2
 - Pythonウェブサイト
 https://www.python.org/
+
+
 ## 第３章
 #### 3-1-3
 - Melody RNNのGitHubページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn
+
 #### 3-2-3
 - Melody RNN 生成曲のYouTube動画URL
 https://youtu.be/tjzXqiiQxDI
+
 - MuseScoreダウンロードページ
 https://musescore.org/ja/download
+
+
 ## 第４章
 #### 4-2-1
 - Drums RNNのGitHubページ
 https://GitHub.com/tensorflow/magenta/tree/master/magenta/models/drums_rnn
+
 #### 4-2-2
 - Drums RNN 生成曲視聴YouTube
 https://youtu.be/pBuPmrNURxY
+
+#### 4-3-2
 - Drums RNN primer_midi 生成曲のYouTube動画URL
 https://youtu.be/HWkqKxB_rNs
+
+
 ## 第５章
 #### 5-1-1
 - MuiscVAE生成比較動画
 https://youtu.be/K0_XQOf_CJw
+
 #### 5-1-3
 - GrooVaeの仕組み
 https://youtu.be/BeMiYihe09s
+
 #### 5-1-4
 - MusicVAEのGitHubページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae
+
 #### 5-2-2
 - MusicVae sampleモード生成曲のYouTube動画URL
 https://youtu.be/oa5T1mp1zdk
+
 #### 5-2-3
 - MusicVAE Interplateモード生成曲のYouTube動画URL
 https://youtu.be/Kqe0TAisazg
+
+#### 5-3-1
 - MusicVAE nade-drums_2bar_full生成曲のYouTube動画URL
 https://youtu.be/sQEsK1VNEyw
+
+#### 5-3-2
 - MusicVAE groovae_4bar生成曲のYouTube動画URL
 https://youtu.be/tjB6HyDvPHE
+
+#### 5-3-3
 - MusicVAE groovae_2bar_add_closed_hh生成曲視聴YouTube
 https://youtu.be/4q7zMi0jiuo
+
+
 ## 第６章
 #### 6-1-3
 - Improv RNNのGitHubページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/improv_rnn
+
+#### 6-2-1
 - Improv RNN生成曲のYouTube動画URL
 https://youtu.be/43iCXzK9iYg
-- Improv RNN primer_melodyを駆使した カノン進行生成曲YouTube視聴動画URL
+
+#### 6-2-2
+- Improv RNN primer_melodyを駆使した カノン進行生成曲YouTube視聴動画
 https://youtu.be/gZBf7cgqyMI
+
+#### 6-2-3
 - primer_midiを使用してきらきら星の続き生成曲YouTube動画
 https://youtu.be/3Hb8MEcO3MA
+
+#### 6-3-3
 - Improv RNN ４和音7thコードでの生成曲YouTube動画
 https://youtu.be/0RGkVaTwfRE
+
+#### 6-3-5
 - テンションコードのカノン進行で生成したメロディーYouTube動画
 https://youtu.be/iTBLo_VIAAg
+
+#### 6-3-6
 - 分数コードを使用した生成曲YouTube動画
 https://youtu.be/wCeFboc_TVk
+
+
 ## 第７章
 #### 7-1-2
 - GitHubのPolyphony RNNページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/polyphony_rnn
+
+#### 7-2-2
 - バッハの様な合唱曲の生成YouTube動画
 https://youtu.be/HEHgOEyOysw
+
+#### 7-2-3
 - 和音を基にした合唱生成曲のYouTube動画
-https://youtu.be/R8OqWrjeF4E 
+https://youtu.be/R8OqWrjeF4E
+
+#### 7-2-4
 - 既存の楽曲にバッハ風ハーモニーを加えた生成曲YouTube動画
 https://youtu.be/cR3cmAo6haw
+
+
 ## 第８章
 #### 8-1-2
 - GitHubのPianoroll RNNのページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/pianoroll_rnn_nade
+
+#### 8-2-2
 - Pianoroll RNNで複雑な和音メロディー曲視聴YouTube動画
 https://youtu.be/g9MXuGXdiwY
+
+
 ## 第９章
 #### 9-1-2
 - YAMAHA E-Piano-Competitionの各演奏MIDIファイル
 http://www.piano-e-competition.com/midiinstructions.asp
+
 - GitHubのPerformance RNNページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/performance_rnn
+
+#### 9-2-2
 - Performance RNNで高度なピアノ演奏曲生成曲視聴YouTubeリンク
 https://youtu.be/MA8i_Mol4c8
+
 - Performance RNNブルース風の生成曲視聴YouTubeリンク
 https://youtu.be/JPXheXQE4gI
+
+
 ## 第１１章
 #### 11-1-3
 Gitダウンロードリンク
 - Windows
 https://gitforwindows.org/
+
 - Mac
 https://sourceforge.net/projects/git-osx-installer/files/
+
 - Magentaレポジトリのダウンロード（ZIPファイル）
 https://github.com/tensorflow/magenta
+
 - Magentaの過去のリリース一覧
 https://github.com/magenta/magenta/releases
-Jump to definition機能について詳しく知りたい方はこちらをご覧ください。
-https://canplay-music.com/2019/06/16/jumptodef/
-#### 11-2-6
-実行後
-http://localhost:6006
-でブラウザからTensorBoardを開きます。
+
+#### 11-2-1
+Atom
+https://atom.io/
+
+
 ## 第１２章
-#### 12-1-2
-- TensorFlowサイトのGPU環境ソフトウェア要件情報
-https://www.tensorflow.org/install/gpu
-#### 12-2-1
-- NVIDIA GPUドライバダウンロードページ
-https://www.nvidia.co.jp/Download/index.aspx?lang=jp
-#### 12-2-2
-- CUDA Toolkitダウンロードページ
-https://developer.nvidia.com/cuda-downloads
-#### 12-2-3
-- cuDNNダウンロードページ
-https://developer.nvidia.com/rdp/cudnn-download
-## 第１３章
-#### 13-1
+#### 12-1
 - A.I.Duet
 https://experiments.withgoogle.com/ai/ai-duet/view/
+
 - Piano Genie
 http://piano-genie.glitch.me/
+
 - NSynth Sound Maker
 https://experiments.withgoogle.com/ai/sound-maker/view/
+
 - Melody Mixer
 https://experiments.withgoogle.com/ai/melody-mixer/view/
+
 - PerformanceRNN
 https://magenta.tensorflow.org/demos/performance_rnn/
+
 - Latent Loops
 https://teampieshop.github.io/latent-loops/
+
 - Beat Blender
 https://experiments.withgoogle.com/ai/beat-blender/view/
+
 - Multitrack Chords
 https://codepen.io/iansimon/full/GGRYJZ
+
 - MultiTrack Interpolating
 https://codepen.io/iansimon/full/Bxgbgz/
+
 - Piano Scribe
 https://piano-scribe.glitch.me/
-#### 13-2
+
+#### 12-2
 - Magenta Studio ダウンロードリンク
 https://magenta.tensorflow.org/studio
+
 - Magenta Studio YouTube動画リンク
 - CONTINUE
 https://youtu.be/5WYAK_J_XLU
+
 - GENERATE 4BARS
 https://youtu.be/-8bMPJ_Zo9E
+
 - INTERPOLATE
 https://youtu.be/D2ASaVMKZRs
+
 - GrooVAE
 https://youtu.be/3MmuWFkgYUY
+
 - DRUMIFY
 https://youtu.be/eYUaYzfZUCo
+
