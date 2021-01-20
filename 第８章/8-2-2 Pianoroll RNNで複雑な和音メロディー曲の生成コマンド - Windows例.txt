@@ -1,7 +1,0 @@
-pianoroll_rnn_nade_generate ^
---bundle_file=¥Users¥User-name¥Documents¥pianoroll_rnn_nade.mag ^
---output_dir=¥Users¥User-name¥Documents¥magenta-music ^
---qpm=90 ^
---num_outputs=10 ^
---num_steps=128 ^
---primer_pianoroll="[(67,64,60), (62,), (64,), (65,), (69,67, 64), (), (70,), (65, 62)]"
