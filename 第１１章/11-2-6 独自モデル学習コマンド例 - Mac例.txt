@@ -1,6 +1,0 @@
-python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
---config=midi500_8bars_rnn \
---run_dir=/Users/KazuyukiIida/Dropbox/aimusic/logdir/run1 \
---sequence_example_file=/Users/KazuyukiIida/Dropbox/aimusic/sequence_examples/training_melodies.tfrecord \
---hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
---num_training_steps=9000
