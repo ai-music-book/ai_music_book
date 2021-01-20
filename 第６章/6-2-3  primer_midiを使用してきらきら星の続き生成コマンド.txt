@@ -1,0 +1,28 @@
+6-2-3 
+primer_midiを使用してきらきら星の続き生成コマンド
+
+Windows 
+improv_rnn_generate ^
+--config=chord_pitches_improv ^
+--bundle_file=¥Users¥User-name¥Documents¥chord_pitches_improv.mag ^
+--output_dir=¥Users¥User-name¥Documents¥magenta-music ^
+--num_outputs=10 ^
+--temperature=1.0 ^
+--qpm=120.0 ^
+--primer_midi=¥Users¥User-name¥Documents¥twinkle.mid ^
+--backing_chords="C G Am Em F C F G" ^
+--steps_per_chord=8 ^
+--render_chords=True 
+
+Mac
+improv_rnn_generate \
+--config=chord_pitches_improv \
+--bundle_file=/Users/User-name/Documents/chord_pitches_improv.mag \
+--output_dir=/Users/User-name/Documents/magenta-music \
+--num_outputs=10 \
+--temperature=1.0 \
+--qpm=120.0 \
+--primer_midi=/Users/User-name/Documents/twinkle.mid \
+--backing_chords="C G Am Em F C F G" \
+--steps_per_chord=8 \
+--render_chords=True
