@@ -1,8 +1,9 @@
 # AI作曲本のサポートページです。
 
 ## 本ページの内容
-- 各章ごとの生成・学習サンプルコマンド、ウェブリンクのURL
-- 生成や学習に使用するMIDIファイル
+- 各章ごとの生成・学習サンプルコマンド（各章ディレクトリから確認）
+- ウェブリンクのURL（当ページに記載）
+- 生成や学習に使用するMIDIファイル（ai-music-book_midi.zip）
 - モデル作成用の参考となる`melody_rnn_model.py`
 - Magentaバージョンアップに伴うエラー対応策
 - 正誤表
@@ -29,7 +30,7 @@ Magenta（含むTensorFlowなどの依存ライブラリ）のバージョンア
 
 ## 第１章
 #### 1-1-1
-- AIで自動作曲し音楽生成のリアル動画
+- AIで自動作曲し音楽生成実行中の動画
 https://youtu.be/oulHBPrFa8c
 
 - AIで自動生成したピアノ曲
@@ -60,7 +61,7 @@ https://www.python.org/
 https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn
 
 #### 3-2-3
-- Melody RNN 生成曲のYouTube動画URL
+- Melody RNN 生成曲のYouTube動画
 https://youtu.be/tjzXqiiQxDI
 
 - MuseScoreダウンロードページ
@@ -73,11 +74,11 @@ https://musescore.org/ja/download
 https://GitHub.com/tensorflow/magenta/tree/master/magenta/models/drums_rnn
 
 #### 4-2-2
-- Drums RNN 生成曲視聴YouTube
+- Drums RNN 生成曲視聴YouTube動画
 https://youtu.be/pBuPmrNURxY
 
 #### 4-3-2
-- Drums RNN primer_midi 生成曲のYouTube動画URL
+- Drums RNN primer_midi 生成曲のYouTube動画
 https://youtu.be/HWkqKxB_rNs
 
 
@@ -95,23 +96,23 @@ https://youtu.be/BeMiYihe09s
 https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae
 
 #### 5-2-2
-- MusicVae sampleモード生成曲のYouTube動画URL
+- MusicVae sampleモード生成曲のYouTube動画
 https://youtu.be/oa5T1mp1zdk
 
 #### 5-2-3
-- MusicVAE Interplateモード生成曲のYouTube動画URL
+- MusicVAE Interplateモード生成曲のYouTube動画
 https://youtu.be/Kqe0TAisazg
 
 #### 5-3-1
-- MusicVAE nade-drums_2bar_full生成曲のYouTube動画URL
+- MusicVAE nade-drums_2bar_full生成曲のYouTube動画
 https://youtu.be/sQEsK1VNEyw
 
 #### 5-3-2
-- MusicVAE groovae_4bar生成曲のYouTube動画URL
+- MusicVAE groovae_4bar生成曲のYouTube動画
 https://youtu.be/tjB6HyDvPHE
 
 #### 5-3-3
-- MusicVAE groovae_2bar_add_closed_hh生成曲視聴YouTube
+- MusicVAE groovae_2bar_add_closed_hh生成曲視聴YouTube動画
 https://youtu.be/4q7zMi0jiuo
 
 
@@ -121,11 +122,11 @@ https://youtu.be/4q7zMi0jiuo
 https://github.com/tensorflow/magenta/tree/master/magenta/models/improv_rnn
 
 #### 6-2-1
-- Improv RNN生成曲のYouTube動画URL
+- Improv RNN生成曲のYouTube動画
 https://youtu.be/43iCXzK9iYg
 
 #### 6-2-2
-- Improv RNN primer_melodyを駆使した カノン進行生成曲YouTube視聴動画
+- Improv RNN primer_melodyを駆使した カノン進行生成曲YouTube動画
 https://youtu.be/gZBf7cgqyMI
 
 #### 6-2-3
@@ -182,10 +183,10 @@ http://www.piano-e-competition.com/midiinstructions.asp
 https://github.com/tensorflow/magenta/tree/master/magenta/models/performance_rnn
 
 #### 9-2-2
-- Performance RNNで高度なピアノ演奏曲生成曲視聴YouTubeリンク
+- Performance RNNで高度なピアノ演奏曲生成曲視聴YouTube動画
 https://youtu.be/MA8i_Mol4c8
 
-- Performance RNNブルース風の生成曲視聴YouTubeリンク
+- Performance RNNブルース風の生成曲視聴YouTube動画
 https://youtu.be/JPXheXQE4gI
 
 
@@ -245,7 +246,7 @@ https://piano-scribe.glitch.me/
 - Magenta Studio ダウンロードリンク
 https://magenta.tensorflow.org/studio
 
-- Magenta Studio YouTube動画リンク
+- Magenta Studio YouTube各YouTube動画
 - CONTINUE
 https://youtu.be/5WYAK_J_XLU
 
