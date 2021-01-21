@@ -20,7 +20,7 @@ convert_dir_to_note_sequences \
 
 Windows
 melody_rnn_create_dataset ^
---config=atention_rnn ^
+--config=attention_rnn ^
 --input= ¥Users¥User-name¥Documents¥noteseq¥notesequences.tfrecord ^
 --output_dir= ¥Users¥User-name¥Documents¥sequence_examples ^
 --eval_ratio=0.2 
