@@ -60,7 +60,7 @@ https://www.python.org/
 
 ## 第３章
 
-- 第３章サンプルコマンド
+- 第３章サンプルコマンド<br>
 https://github.com/ai-music-book/ai_music_book/tree/master/%E7%AC%AC%EF%BC%93%E7%AB%A0
 
 #### 3-1-3
