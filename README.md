@@ -202,6 +202,10 @@ https://youtu.be/g9MXuGXdiwY
 
 
 ## 第９章
+
+- 第９章サンプルコマンド<br>
+https://github.com/ai-music-book/ai_music_book/tree/master/%E7%AC%AC%EF%BC%99%E7%AB%A0
+
 #### 9-1-2
 - YAMAHA E-Piano-Competitionの各演奏MIDIファイル
 http://www.piano-e-competition.com/midiinstructions.asp
