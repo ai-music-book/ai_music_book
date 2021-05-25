@@ -166,6 +166,10 @@ https://youtu.be/wCeFboc_TVk
 
 
 ## 第７章
+
+- 第７章サンプルコマンド<br>
+https://github.com/ai-music-book/ai_music_book/tree/master/%E7%AC%AC%EF%BC%97%E7%AB%A0
+
 #### 7-1-2
 - GitHubのPolyphony RNNページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/polyphony_rnn
