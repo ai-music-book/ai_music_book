@@ -94,6 +94,10 @@ https://youtu.be/HWkqKxB_rNs
 
 
 ## 第５章
+
+- 第５章サンプルコマンド<br>
+https://github.com/ai-music-book/ai_music_book/tree/master/%E7%AC%AC%EF%BC%95%E7%AB%A0
+
 #### 5-1-1
 - MuiscVAE生成比較動画
 https://youtu.be/K0_XQOf_CJw
