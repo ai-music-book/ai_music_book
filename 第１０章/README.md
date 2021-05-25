@@ -98,7 +98,6 @@ tensorboard --logdir=/Users/User-name/Documents/logdir
 ```
 
 実行後 <br>
-<br>
 http://localhost:6006
 <br>
 でブラウザからTensorBoardを開きます。 
