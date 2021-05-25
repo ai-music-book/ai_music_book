@@ -59,6 +59,10 @@ https://www.python.org/
 
 
 ## 第３章
+
+- 第３章サンプルコマンド
+https://github.com/ai-music-book/ai_music_book/tree/master/%E7%AC%AC%EF%BC%93%E7%AB%A0
+
 #### 3-1-3
 - Melody RNNのGitHubページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn
