@@ -132,6 +132,10 @@ https://youtu.be/4q7zMi0jiuo
 
 
 ## 第６章
+
+- 第６章サンプルコマンド<br>
+https://github.com/ai-music-book/ai_music_book/tree/master/%E7%AC%AC%EF%BC%96%E7%AB%A0
+
 #### 6-1-3
 - Improv RNNのGitHubページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/improv_rnn
