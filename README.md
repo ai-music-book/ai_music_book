@@ -76,6 +76,10 @@ https://musescore.org/ja/download
 
 
 ## 第４章
+
+- 第４章サンプルコマンド<br>
+https://github.com/ai-music-book/ai_music_book/tree/master/%E7%AC%AC%EF%BC%94%E7%AB%A0
+
 #### 4-2-1
 - Drums RNNのGitHubページ
 https://GitHub.com/tensorflow/magenta/tree/master/magenta/models/drums_rnn
