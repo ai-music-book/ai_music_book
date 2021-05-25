@@ -188,6 +188,10 @@ https://youtu.be/cR3cmAo6haw
 
 
 ## 第８章
+
+- 第８章サンプルコマンド<br>
+https://github.com/ai-music-book/ai_music_book/tree/master/%E7%AC%AC%EF%BC%98%E7%AB%A0
+
 #### 8-1-2
 - GitHubのPianoroll RNNのページ
 https://github.com/tensorflow/magenta/tree/master/magenta/models/pianoroll_rnn_nade
