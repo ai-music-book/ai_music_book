@@ -29,6 +29,7 @@ Magenta（含むTensorFlowなどの依存ライブラリ）のバージョンア
 
 添付ファイルダウンロードはこちら（zipファイルになっておりますので解凍してご使用ください）
 * [ai-music-book_midi.zip](https://canplay-music.com/download/29413/)
+* [melody_rnn_model.py.zip](https://canplay-music.com/download/29416/)
 
 ## 第１章
 #### 1-1-1
