@@ -108,7 +108,7 @@ tensorboard --logdir=/Users/User-name/Documents/logdir
 
 実行後<br>
 http://localhost:6006 
-でブラウザからTensorBoardを開きます。 
+<br>でブラウザからTensorBoardを開きます。 
 
 
 ## 学習中のチェックポイントファイルでの生成コマンド例
