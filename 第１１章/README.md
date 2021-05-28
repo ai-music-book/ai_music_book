@@ -114,7 +114,7 @@ http://localhost:6006
 ## 学習中のチェックポイントファイルでの生成コマンド例
 Windows例
 ```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
+python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music ^
@@ -126,7 +126,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
 
 Mac例
 ```
-python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
+python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
 --run_dir=/Users/User-name/Documents/logdir/run1 \
 --output_dir=/Users/User-name/Documents/magenta-music \
@@ -139,7 +139,7 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.p
 ## 11-2-7 学習済みデータ作成コマンド例
 Windows例
 ```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
+python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
 --run_dir=¥Users¥User-name¥Documents¥logdir¥run1 ^
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" ^
@@ -149,7 +149,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
 
 Mac例
 ```
-python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
+python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
 --run_dir=/Users/User-name/Documents/logdir/run1 \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
@@ -160,7 +160,7 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.p
 ## 独自モデルでの生成コマンド例
 Windows例
 ```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_generate.py ^
+python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
 --bundle_file=¥Users¥User-name¥Downloads¥midi500_8bars_rnn.mag ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music ^
@@ -171,7 +171,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥ melody_rnn_gen
  
 Mac例
 ```
-python /Users/User-name/magenta/magenta/models/melody_rnn/ melody_rnn_generate.py \
+python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
 --bundle_file=/Users/User-name/Downloads/midi500_8bars_rnn.mag \
 --output_dir=/Users/User-name/Documents/magenta-music \
