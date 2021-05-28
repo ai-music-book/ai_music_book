@@ -27,9 +27,9 @@ MIDIファイルはダウンロードして該当のファイルを使用して�
 #### Magentaのバージョンアップ&エラー情報について
 Magenta（含むTensorFlowなどの依存ライブラリ）のバージョンアップや、更新によって新たにエラーが出る場合の対策も併せて記載しますので実行に問題がある場合は確認をしてみてください。
 
-添付ファイルはこちらのリンク先ページから
+MIDIファイルとmelody_rnn_model.pyはこちらのリンク先ページからダウンロードできます。
 （zipファイルになっておりますので解凍してご使用ください）
-* [ai-music-book_midi.zip](https://canplay-music.com/ai-music-book-downloads/)
+* [AI作曲本 ファイルダウンロードページ](https://canplay-music.com/ai-music-book-downloads/)
 
 
 ## 第１章
