@@ -1,6 +1,6 @@
 # Magentaで開発 AI作曲 サポートページです。
 
-<img src="https://github.com/ai-music-book/ai_music_book/blob/master/aimusicbook.jpeg" title="Magenta AI MUSIC BOOK">
+<img src="https://github.com/ai-music-book/ai_music_book/blob/master/aimusicbook.jpeg" title="Magenta AI MUSIC BOOK" width="450" height="600">
 
 
 ## 本ページの内容
