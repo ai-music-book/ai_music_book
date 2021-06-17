@@ -4,7 +4,7 @@
 </a>
 
 ## Magentaで開発 AI作曲について
-音楽のAIプログラミングについて学べるMUSIC TECH ACADEMY CANPLAYの<a href="https://canplay-music.com/music-ai/">MUSIC AIプログラミング講義</a>の内容をまとめた解説本です。
+音楽のAIプログラミングとAI作曲について学べる<a href="https://canplay-music.com/">MUSIC TECH ACADEMY CANPLAY</a>の<a href="https://canplay-music.com/music-ai/">MUSIC AIプログラミング講義</a>の内容をまとめた解説本です。
 
 ## 本ページの内容
 - 各章ごとの生成・学習サンプルコマンド（各章ディレクトリから確認）
