@@ -1,6 +1,7 @@
 # Magentaで開発 AI作曲 サポートページです。
-
+<a href="https://canplay-music.com/aimusicbook/" target="blank">
 <img src="https://canplay-music.com/wp-content/uploads/2021/06/aimusicbook.jpeg" title="Magenta AI MUSIC BOOK" width="450" height="600">
+</a>
 
 
 ## 本ページの内容
