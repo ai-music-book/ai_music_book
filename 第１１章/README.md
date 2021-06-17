@@ -8,7 +8,7 @@ pip install -e .
 Pythonファイルを使用した生成コマンド<br>
 Windows例
  ```
-python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnnmelody_rnn_generate.py ^
+python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_generate.py ^
 --config=basic_rnn ^
 --bundle_file=¥Users¥User-name¥Documents¥basic_rnn.mag ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music ^
