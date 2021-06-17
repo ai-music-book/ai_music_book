@@ -3,6 +3,8 @@
 <img src="https://canplay-music.com/wp-content/uploads/2021/06/aimusicbook.jpeg" title="Magenta AI MUSIC BOOK" width="450" height="600">
 </a>
 
+## Magentaで開発 AI作曲について
+音楽のAIプログラミングについて学べるMUSIC TECH ACADEMY CANPLAYの<a href="https://canplay-music.com/music-ai/">MUSIC AIプログラミング講義</a>の内容をまとめた解説本です。
 
 ## 本ページの内容
 - 各章ごとの生成・学習サンプルコマンド（各章ディレクトリから確認）
@@ -33,7 +35,7 @@ Magenta（含むTensorFlowなどの依存ライブラリ）のバージョンア
 
 全てのMIDIファイルとmelody_rnn_model.pyはこちらのリンク先ページからダウンロードできます。
 （zipファイルになっておりますので解凍してご使用ください）
-* [AI作曲本 ファイルダウンロードページ](https://canplay-music.com/ai-music-book-downloads/)
+* [Magentaで開発 AI作曲 ファイルダウンロードページ](https://canplay-music.com/ai-music-book-downloads/)
 
 
 ## 第１章
