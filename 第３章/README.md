@@ -4,6 +4,7 @@
 ## 3-2-1 Melody RNN 生成コマンド実行例
 
 Windows例
+リスト3.2 Melody RNN 生成コマンド実行例（Windows）
 ```
 melody_rnn_generate ^
 --config=basic_rnn ^
@@ -16,6 +17,7 @@ melody_rnn_generate ^
 ```
 
 Mac例
+リスト3.3 Melody RNN 生成コマンド実行例（macOS）
 ```
 melody_rnn_generate \
 --config=basic_rnn \
