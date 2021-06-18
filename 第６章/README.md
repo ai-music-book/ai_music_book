@@ -3,7 +3,7 @@
 
 ## 6-2-1 Improv RNNの生成コマンド例 
 
-Windows例
+リスト6.2(Windows)
 ```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
@@ -18,7 +18,7 @@ improv_rnn_generate ^
 --render_chords=True 
 ```
 
-Mac例
+リスト6.3(macOS)
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -35,7 +35,7 @@ improv_rnn_generate \
 
 ## 6-2-2 Improv RNN primer_melodyの生成コマンド 
 
-Windows例
+リスト6.4(Windows)
 ```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
@@ -50,7 +50,7 @@ improv_rnn_generate ^
 --render_chords=True 
 ```
 
-Mac例
+リスト6.5(macOS)
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -67,7 +67,7 @@ improv_rnn_generate \
 
 ## 6-2-3 primer_midiを使用してきらきら星の続き生成コマンド
 
-Windows例 
+リスト6.6(Windows)
 ```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
@@ -82,7 +82,7 @@ improv_rnn_generate ^
 --render_chords=True 
 ```
 
-Mac例 
+リスト6.7(macOS) 
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -99,7 +99,7 @@ improv_rnn_generate \
 
 ## 6-3-3 Improv RNN ４和音7thコードでの生成コマンド
 
-Windows例 
+リスト6.8(Windows)
 ```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
@@ -114,7 +114,7 @@ improv_rnn_generate ^
 --render_chords=True 
 ```
 
-Mac例 
+リスト6.9(macOS)
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -131,7 +131,7 @@ improv_rnn_generate \
 
 ## 6-3-5 テンションコードを使用した音楽生成 コマンド 
 
-Windows例 
+リスト6.10(Windows)
 ```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
@@ -146,7 +146,7 @@ improv_rnn_generate ^
 --render_chords=True 
 ```
 
-Mac例 
+リスト6.11(macOS) 
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
@@ -163,7 +163,7 @@ improv_rnn_generate \
 
 ## 6-3-6 分数コードを使用した音楽生成 コマンド
 
-Windows例
+リスト6.12(Windows)
 ```
 improv_rnn_generate ^
 --config=chord_pitches_improv ^
@@ -178,7 +178,7 @@ improv_rnn_generate ^
 --render_chords=True 
 ```
 
-Mac例
+リスト6.13(macOS)
 ```
 improv_rnn_generate \
 --config=chord_pitches_improv \
