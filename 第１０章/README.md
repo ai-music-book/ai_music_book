@@ -3,7 +3,7 @@
 
 ## 10-2-2 NoteSequence（tfrecord）の作成
 
-Windows例
+リスト10.1(Windows)
 ```
 convert_dir_to_note_sequences ^
 --input_dir=¥Users¥User-name¥Documents¥midi500 ^
@@ -11,7 +11,7 @@ convert_dir_to_note_sequences ^
 --recursive 
 ```
 
-Mac例
+リスト10.2(macOS)
 ```
 convert_dir_to_note_sequences \
 --input_dir= /Users/User-name/Documents/midi500 \
@@ -21,7 +21,7 @@ convert_dir_to_note_sequences \
  
 ## 10-2-3 学習データと評価データの作成コマンド
 
-Windows例
+リスト10.3(Windows)
 ```
 melody_rnn_create_dataset ^
 --config=attention_rnn ^
@@ -30,7 +30,7 @@ melody_rnn_create_dataset ^
 --eval_ratio=0.2 
 ```
  
-Mac例
+リスト10.4(macOS)
 ```
 melody_rnn_create_dataset \
 --config=attention_rnn \
@@ -41,7 +41,7 @@ melody_rnn_create_dataset \
 
 ## 10-2-4 学習（トレーニング）コマンド
 
-Windows例
+リスト10.5(Windows)
 ```
 melody_rnn_train ^
 --config=attention_rnn ^
@@ -51,7 +51,7 @@ melody_rnn_train ^
 --num_training_steps=10000 
 ```
 
-Mac例
+リスト10.6(macOS)
 ```
 melody_rnn_train \
 --config=attention_rnn \
@@ -63,7 +63,7 @@ melody_rnn_train \
 
 ## 10-2-5 評価コマンド
 
-Windows例
+リスト10.7(Windows)
 ```
 melody_rnn_train ^
 --config=attention_rnn ^
@@ -74,7 +74,7 @@ melody_rnn_train ^
 --eval
 ```
 
-Mac例
+リスト10.8(macOS)
 ```
 melody_rnn_train \
 --config=attention_rnn \
@@ -87,12 +87,12 @@ melody_rnn_train \
 
 ## 10-2-6 TensorBoardで学習の確認
 
-Windows例
+リスト10.9(Windows)
 ```
 tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
  ```
  
-Mac例
+リスト10.10(macOS)
 ```
 tensorboard --logdir=/Users/User-name/Documents/logdir
 ```
@@ -105,7 +105,7 @@ http://localhost:6006
 
 ## 10-2-7 音楽生成コマンド
 
-Windows例
+リスト10.11(Windows)
 ```
 melody_rnn_generate ^
 --config=attention_rnn ^
@@ -117,7 +117,7 @@ melody_rnn_generate ^
 --primer_melody="[60]"
 ```
 
-Mac例
+リスト10.12(macOS)
 ```
 melody_rnn_generate \
 --config=attention_rnn \
@@ -131,7 +131,7 @@ melody_rnn_generate \
 
 ## 10-2-8 学習済みデータ（Bundleファイル）作成コマンド
 
-Windows例
+リスト10.13(Windows)
 ```
 melody_rnn_generate ^
 --config=attention_rnn ^
@@ -141,7 +141,7 @@ melody_rnn_generate ^
 --save_generator_bundle
 ```
 
-Mac例
+リスト10.14(macOS)
 ```
 melody_rnn_generate \
 --config=attention_rnn \
