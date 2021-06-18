@@ -292,7 +292,7 @@ https://piano-scribe.glitch.me/
 - Magenta Studio ダウンロードリンク
 https://magenta.tensorflow.org/studio
 
-- Magenta Studio YouTube各YouTube動画
+Magenta Studio YouTube各YouTube動画
 - CONTINUE
 https://youtu.be/5WYAK_J_XLU
 
