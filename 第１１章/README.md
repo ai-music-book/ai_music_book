@@ -6,7 +6,7 @@
 pip install -e .
  ```
 Pythonファイルを使用した生成コマンド<br>
-Windows例
+リスト11.1(Windows)
  ```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_generate.py ^
 --config=basic_rnn ^
@@ -18,7 +18,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_gene
 --primer_melody=”[60]” 
  ```
 
-Mac例
+リスト11.2(macOS)
  ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=basic_rnn \
@@ -30,7 +30,8 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py
 --primer_melody=”[60]” 
  ```
 
-## 11-2-5 独自モデル設定 例 
+## 11-2-5 独自モデル設定 例
+リスト11.7
  ```
 'midi500_8bars_rnn':
     MelodyRnnConfig(
@@ -52,7 +53,7 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py
  ```
 
 ## 11-2-6 独自モデル学習コマンド例
-Windows例
+リスト11.8(Windows)
 ```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_train.py ^
 --config=midi500_8bars_rnn ^
@@ -62,7 +63,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_trai
 --num_training_steps=9000
  ```
  
-Mac例
+リスト11.9(macOS)
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 --config=midi500_8bars_rnn \
@@ -73,7 +74,7 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 ```
 
 ## 評価コマンド例 
-Windows例
+リスト11.10(Windows)
 ```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_train.py ^
 --config=midi500_8bars_rnn ^
@@ -84,7 +85,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_trai
 --eval
 ```
 
-Mac例
+リスト11.11(macOS)
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 --config=midi500_8bars_rnn \
@@ -96,12 +97,12 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_train.py \
 ```
 
 ## TensorBoardコマンド例
-Windows例
+リスト11.12(Windows)
 ```
 tensorboard --logdir=¥Users¥User-name¥Documents¥logdir
 ```
 
-Mac例
+リスト11.13(macOS)
 ```
 tensorboard --logdir=/Users/User-name/Documents/logdir
  ```
@@ -112,7 +113,7 @@ http://localhost:6006
 
 
 ## 学習中のチェックポイントファイルでの生成コマンド例
-Windows例
+リスト11.14(Windows)
 ```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
@@ -124,7 +125,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_gene
 --primer_melody="[60]"
 ```
 
-Mac例
+リスト11.15(macOS)
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
@@ -137,7 +138,7 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py
 ```
 
 ## 11-2-7 学習済みデータ作成コマンド例
-Windows例
+リスト11.16(Windows)
 ```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
@@ -147,7 +148,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_gene
 --save_generator_bundle
 ```
 
-Mac例
+リスト11.17(macOS)
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
@@ -158,7 +159,7 @@ python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py
 ```
 
 ## 独自モデルでの生成コマンド例
-Windows例
+リスト11.18(Windows)
 ```
 python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_generate.py ^
 --config=midi500_8bars_rnn ^
@@ -169,7 +170,7 @@ python ¥Users¥User-name¥magenta¥magenta¥models¥melody_rnn¥melody_rnn_gene
 --primer_melody="[60]"
 ```
  
-Mac例
+リスト11.19(macOS)
 ```
 python /Users/User-name/magenta/magenta/models/melody_rnn/melody_rnn_generate.py \
 --config=midi500_8bars_rnn \
