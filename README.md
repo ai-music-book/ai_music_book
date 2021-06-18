@@ -256,8 +256,8 @@ Atom
 https://atom.io/
 
 
-## 第１２章
-#### 12-1
+## Appendix
+#### A-1
 - A.I.Duet
 https://experiments.withgoogle.com/ai/ai-duet/view/
 
@@ -288,10 +288,10 @@ https://codepen.io/iansimon/full/Bxgbgz/
 - Piano Scribe
 https://piano-scribe.glitch.me/
 
-#### 12-2
+#### A-2
 - Magenta Studio ダウンロードリンク
 https://magenta.tensorflow.org/studio
-
+<br>
 Magenta Studio YouTube各YouTube動画
 - CONTINUE
 https://youtu.be/5WYAK_J_XLU
