@@ -3,7 +3,7 @@
 
 ## 7-2-2 バッハ風合唱曲の生成コマンド
 
-Windows例
+リスト7.2(Windows)
 ```
 polyphony_rnn_generate ^
 --bundle_file=¥Users¥User-name¥Documents¥polyphony_rnn.mag ^
@@ -17,7 +17,7 @@ polyphony_rnn_generate ^
 --inject_primer_during_generation=False 
 ```
 
-Mac例
+リスト7.3(macOS)
 ```
 polyphony_rnn_generate \
 --bundle_file=/Users/User-name/Documents/polyphony_rnn.mag \
@@ -33,7 +33,7 @@ polyphony_rnn_generate \
 
 ## 7-2-3 和音を基にした合唱曲の生成 コマンド
 
-Windows例
+リスト7.4(Windows)
 ```
 polyphony_rnn_generate ^
 --bundle_file=¥Users¥User-name¥Documents¥polyphony_rnn.mag ^
@@ -47,7 +47,7 @@ polyphony_rnn_generate ^
 --inject_primer_during_generation=False 
 ```
 
-Mac例
+リスト7.5(macOS)
 ```
 polyphony_rnn_generate \
 --bundle_file=/Users/User-name/Documents/polyphony_rnn.mag \
@@ -61,9 +61,9 @@ polyphony_rnn_generate \
 --inject_primer_during_generation=False
 ```
 
-## 7-2-4 既存の楽曲にバッハ合唱曲風ハーモニーを加える音楽生成コマンド
+## 7-2-4 既存の楽曲にバッハ風合唱曲のハーモニーを加える音楽生成コマンド
 
-Windows例 
+リスト7.6(Windows)
 ```
 polyphony_rnn_generate ^
 --bundle_file=¥Users¥User-name¥Documents¥polyphony_rnn.mag ^
@@ -75,7 +75,7 @@ polyphony_rnn_generate ^
 --inject_primer_during_generation=True
 ```
 
-Mac例 
+リスト7.7(macOS) 
 ```
 polyphony_rnn_generate \
 --bundle_file=/Users/User-name/Documents/polyphony_rnn.mag \
