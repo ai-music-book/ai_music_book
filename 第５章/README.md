@@ -3,7 +3,7 @@
 
 ## 5-2-2 MusicVAE Sampleモード生成コマンド例 
 
-Windows例
+リスト5.2(Windows)
 ```
 music_vae_generate ^ 
 --config=hierdec-trio_16bar ^ 
@@ -13,7 +13,7 @@ music_vae_generate ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
 ```
 
-Mac例
+リスト5.3(macOS)
 ```
 music_vae_generate \ 
 --config=hierdec-trio_16bar \ 
@@ -25,7 +25,7 @@ music_vae_generate \
 
 ## 5-2-3 MusicVAE Interplateモード生成コマンド例 
 
-Windows例
+リスト5.4(Windows)
 ```
 music_vae_generate ^ 
 --config=hierdec-trio_16bar ^ 
@@ -37,7 +37,7 @@ music_vae_generate ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
 ```
 
-Mac例
+リスト5.5(macOS)
 ```
 music_vae_generate \ 
 --config=hierdec-trio_16bar \ 
@@ -50,7 +50,8 @@ music_vae_generate \
 ```
 
 ## 5-3-1 MusicVAE nade-drums_2bar_full 生成コマンド例 
-Windows例 
+
+リスト5.6(Windows)
 ```
 music_vae_generate ^ 
 --config=nade-drums_2bar_full ^ 
@@ -61,7 +62,7 @@ music_vae_generate ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
 ```
 
-Mac例 
+リスト5.7(macOS)
 ```
 music_vae_generate \ 
 --config=nade-drums_2bar_full \ 
@@ -74,7 +75,7 @@ music_vae_generate \
 
 ## 5-3-2 MusicVAE groovae_4barの生成コマンド例 
 
-Windows例 
+リスト5.8(Windows)
 ```
 music_vae_generate ^
 --config=groovae_4bar ^
@@ -85,7 +86,7 @@ music_vae_generate ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
 ```
 
-Mac例 
+リスト5.9(macOS)
 ```
 music_vae_generate \
 --config=groovae_4bar \
@@ -98,7 +99,7 @@ music_vae_generate \
 
 ## 5-3-3 MusicVAE groovae_2bar_add_closed_hhの生成コマンド例 
 
-Windows例 
+リスト5.10(Windows)
 ```
 music_vae_generate ^ 
 --config=groovae_2bar_add_closed_hh ^ 
@@ -111,7 +112,7 @@ music_vae_generate ^
 --output_dir=¥Users¥User-name¥Documents¥magenta-music 
 ```
 
-Mac例 
+リスト5.11(macOS) 
 ```
 music_vae_generate \ 
 --config=groovae_2bar_add_closed_hh \ 
