@@ -3,7 +3,7 @@
 
 ## 9-2-2 Performance RNNで高度なピアノ演奏曲の生成コマンド
 
-Windows例
+リスト9.1(Windows)
 ```
 performance_rnn_generate ^
 --config=multiconditioned_performance_with_dynamics ^
@@ -16,7 +16,7 @@ performance_rnn_generate ^
 --primer_pitches="[71,67,64,60]" 
 ```
 
-Mac例
+リスト9.2(macOS)
 ```
 performance_rnn_generate \
 --config=multiconditioned_performance_with_dynamics \
