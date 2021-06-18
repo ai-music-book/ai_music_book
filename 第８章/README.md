@@ -3,7 +3,7 @@
 
 ## 8-2-2 Pianoroll RNNで複雑な和音メロディー曲の生成コマンド
 
-Windows例
+リスト8.1(Windows)
 ```
 pianoroll_rnn_nade_generate ^
 --bundle_file=¥Users¥User-name¥Documents¥pianoroll_rnn_nade.mag ^
@@ -14,7 +14,7 @@ pianoroll_rnn_nade_generate ^
 --primer_pianoroll="[(67,64,60), (62,), (64,), (65,), (69,67, 64), (), (70,), (65, 62)]"
 ```
 
-Mac例
+リスト8.2(macOS)
 ```
 pianoroll_rnn_nade_generate \
 --bundle_file=/Users/User-name/Documents/pianoroll_rnn_nade.mag \
