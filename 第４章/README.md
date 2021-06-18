@@ -3,7 +3,7 @@
 
 ## 4-2-2 Drums RNN 生成コマンド実行例
 
-Windows例
+リスト4.2(Windows)
 ```
 drums_rnn_generate ^
 --config=one_drum ^
@@ -15,7 +15,7 @@ drums_rnn_generate ^
 --primer_drums="[(36,)]"
 ```
 
-Mac例
+リスト4.3(macOS)
 ```
 melody_rnn_generate \
 --config=one_drum \
@@ -29,7 +29,7 @@ melody_rnn_generate \
 
 ## 4-3-2 Drums RNN primer_midi 生成コマンド実行例
 
-Windows例
+リスト4.4(Windows)
 ```
 drums_rnn_generate ^
 --config=one_drum ^
@@ -41,7 +41,7 @@ drums_rnn_generate ^
 --primer_midi=¥Users¥User-name¥Documents¥song001.mid
 ```
 
-Mac例
+リスト4.5(macOS)
 ```
 drums_rnn_generate \
 --config=one_drum \
