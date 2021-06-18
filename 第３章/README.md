@@ -3,8 +3,7 @@
 
 ## 3-2-1 Melody RNN 生成コマンド実行例
 
-Windows例
-リスト3.2 Melody RNN 生成コマンド実行例（Windows）
+リスト3.2(Windows)
 ```
 melody_rnn_generate ^
 --config=basic_rnn ^
@@ -16,8 +15,7 @@ melody_rnn_generate ^
 --primer_melody=”[60]”
 ```
 
-Mac例
-リスト3.3 Melody RNN 生成コマンド実行例（macOS）
+リスト3.3(macOS)
 ```
 melody_rnn_generate \
 --config=basic_rnn \
@@ -31,7 +29,7 @@ melody_rnn_generate \
 
 ## 3-3-2 Melody RNN primer_midi 生成コマンド実行例
 
-Windows例
+リスト3.5(Windows)
 ```
 melody_rnn_generate ^
 --config=basic_rnn ^
@@ -43,7 +41,7 @@ melody_rnn_generate ^
 --primer_midi=¥Users¥User-name¥Documents¥song001.mid
 ```
 
-Mac例
+リスト3.6(macOS)
 ```
 melody_rnn_generate \
 --config=basic_rnn \
