@@ -1,7 +1,5 @@
 # Magentaで開発 AI作曲 サポートページ
-<a href="https://canplay-music.com/aimusicbook/" target="blank">
-<img src="https://canplay-music.com/wp-content/uploads/2021/06/aimusicbook.jpeg" title="Magenta AI MUSIC BOOK" width="450" height="600">
-</a>
+<img src="https://exdream-inc.com/wp-content/uploads/2025/02/magenta-ai-book.jpg" title="Magenta AI MUSIC BOOK" width="450" height="600">
 
 ## Magentaで開発 AI作曲について
 音楽のAIプログラミングとAI作曲について学べる<a href="https://canplay-music.com/">MUSIC TECH ACADEMY CANPLAY</a>の<a href="https://canplay-music.com/music-ai/">MUSIC AIプログラミング講義</a>の内容をまとめた解説本です。
