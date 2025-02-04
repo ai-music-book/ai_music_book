@@ -31,7 +31,7 @@ MIDIファイルはダウンロードして該当のファイルを使用して�
 
 全てのMIDIファイルとmelody_rnn_model.pyはこちらのリンク先ページからダウンロードできます。
 （zipファイルになっておりますので解凍してご使用ください）
-* [Magentaで開発 AI作曲 ファイルダウンロードページ](https://canplay-music.com/ai-music-book-downloads/)
+* [Magentaで開発 AI作曲 ファイルダウンロードページ](https://exdream-inc.com/download/2489/)
 
 
 #### Magentaのバージョンアップ&エラー情報について
